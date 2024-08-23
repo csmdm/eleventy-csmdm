@@ -78,9 +78,7 @@ export default async function (eleventyConfig) {
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`);
 
   // --------------------- Events ---------------------
-  if (process.env.ELEVENTY_RUN_MODE === 'serve') {
-    eleventyConfig.on('eleventy.after', events.svgToJpeg);
-  }
+  eleventyConfig.on('eleventy.after', events.svgToJpeg);
 
   // --------------------- Passthrough File Copy
 
