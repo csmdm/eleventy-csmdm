@@ -1,12 +1,10 @@
 ---
-title: Legal notice
+title: Avviso legale
 discover:
-  title: Legal notice
+  title: Avviso legale
 permalink: /imprint/index.html
 description: Imprint infos
 layout: page
 ---
-
-Edit your details in `_data/personal.yaml`
 
 {{ personal.address }}
