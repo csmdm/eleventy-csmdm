@@ -30,6 +30,14 @@ custom-slider img {
     scroll-padding: 50vw;
   }
 
+  custom-slider ul li:first-child {
+    margin-inline-start: var(--item-width);
+  }
+
+  custom-slider ul li:last-child {
+    margin-inline-end: var(--item-width);
+  }
+
   custom-slider .slider__button {
     cursor: pointer;
     appearance: none;
