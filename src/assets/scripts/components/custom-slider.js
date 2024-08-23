@@ -1,3 +1,5 @@
+// inspired by https://codepen.io/learosema/pen/yLdoEVY
+
 class CustomSlider extends HTMLElement {
   constructor() {
     super();
