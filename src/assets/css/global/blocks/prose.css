@@ -2,7 +2,7 @@
 
 .prose {
   --flow-space: var(--space-m-l);
-  --wrapper-width: 64rem;
+  --wrapper-width: 60ch;
 }
 
 .prose :where(pre, pre + *, figure, figure + *) {
@@ -39,7 +39,7 @@
 }
 
 /* block space only for "regular lists" */
-.prose :not(.cluster):not(.grid) > li + li {
+.prose :not(.cluster):not(.grid):not(.slides) > li + li {
   padding-block-start: var(--space-s-m);
 }
 

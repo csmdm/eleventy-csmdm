@@ -41,7 +41,7 @@
   .mainnav [data-state='active'] {
     --item-border-color: transparent;
     --item-background-color: transparent;
-    --item-text-color: var(--color-primary);
-    --item-text-decoration: var(--color-primary);
+    --item-text-color: var(--color-text);
+    --item-text-decoration: var(--color-text);
   }
 }

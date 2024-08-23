@@ -1,0 +1,19 @@
+<div class="full section " style="--spot-color: var(--color-bg-accent)">
+  <div class="section__inner region wrapper">
+    <custom-slider>
+      <ul class="slides">
+        {%- for item in gallery -%}
+          <li class="slide" id="picture-{{ loop.index }}">{%- image item.image, item.alt -%}</li>
+        {%- endfor -%}
+      </ul>
+      <button class="slider__button left" type="button">
+        {% svg "misc/chevron-left" %}
+        <span class="visually-hidden">scroll left</span>
+      </button>
+      <button class="slider__button right" type="button">
+        {% svg "misc/chevron-right" %}
+        <span class="visually-hidden">scroll right</span>
+      </button>
+    </custom-slider>
+  </div>
+</div>

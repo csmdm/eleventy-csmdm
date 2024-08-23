@@ -1,0 +1,36 @@
+<script webc:setup>
+  function getEmbedUrl(slug) {
+    return `https://drive.google.com/file/d/${slug}/preview`;
+  }
+</script>
+
+<style>
+  /* Hide without JS */
+  is-land:not(:defined).iframe-wrapper {
+    display: none;
+  }
+</style>
+
+<custom-iframe webc:root class="flow">
+  <is-land on:visible class="iframe-wrapper">
+    <iframe
+      :src="getEmbedUrl(slug)"
+      allow="autoplay; encrypted-media"
+      allowfullscreen
+      style="inline-size: 100%; aspect-ratio: 16 / 9; border-radius: 0.5em; background-color: #eee"
+    ></iframe>
+
+    <template data-island="once" webc:raw>
+      <style>
+        .iframe-wrapper {
+          aspect-ratio: 16 / 9;
+          width: 100%;
+        }
+
+        is-land.iframe-wrapper {
+          display: block;
+        }
+      </style>
+    </template>
+  </is-land>
+</custom-iframe>

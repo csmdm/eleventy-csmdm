@@ -13,8 +13,6 @@ Adjust fallbacks if modern color syntax not supported for text and bg variants. 
   --tracking-s: -0.075ch;
   --tracking-wide: 0.05ch;
 
-  --gradient-water: linear-gradient(90deg, #297683, #102430);
-
   --gradient-rainbow: linear-gradient(90deg, #cf4662 10%, #fbbe25 30%, #62c95c 50%, #08bccb 75%, #a977d5 90%);
   --gradient-conic: conic-gradient(
     var(--color-primary) 0 28%,
@@ -45,6 +43,8 @@ Adjust fallbacks if modern color syntax not supported for text and bg variants. 
   --color-text-accent: #505050;
   --color-bg-accent: #fdfdfd;
   --color-bg-accent-2: #f7f7f7;
+
+  --gradient-water: linear-gradient(90deg, #297683, #102430);
 }
 
 /* Dark theme specific variables based on system preference */
@@ -60,6 +60,7 @@ Adjust fallbacks if modern color syntax not supported for text and bg variants. 
     --color-text-accent: #a8a8a8;
     --color-bg-accent: #383838;
     --color-bg-accent-2: #404040;
+    --gradient-water: linear-gradient(90deg, #297683, #367196);
   }
 }
 
@@ -75,6 +76,7 @@ Adjust fallbacks if modern color syntax not supported for text and bg variants. 
   --color-text-accent: #a8a8a8;
   --color-bg-accent: #383838;
   --color-bg-accent-2: #404040;
+  --gradient-water: linear-gradient(90deg, #297683, #367196);
 }
 
 /* Enhancements for browsers that support color-mix */

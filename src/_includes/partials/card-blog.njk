@@ -2,6 +2,12 @@
   <h2 slot="headline">
     <a href="{{ item.url | url }}">{{ item.data.title }}</a>
   </h2>
+
+  {% if item.data.image %}
+    <!-- image -->
+    {% image item.data.image, item.data.alt or item.data.title %}
+  {% endif %}
+
   <span slot="date"> {% include "partials/date.njk" %} </span>
   {%
     if
