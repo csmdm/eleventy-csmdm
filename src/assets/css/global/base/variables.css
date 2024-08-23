@@ -13,6 +13,8 @@ Adjust fallbacks if modern color syntax not supported for text and bg variants. 
   --tracking-s: -0.075ch;
   --tracking-wide: 0.05ch;
 
+  --gradient-water: linear-gradient(90deg, #297683, #102430);
+
   --gradient-rainbow: linear-gradient(90deg, #cf4662 10%, #fbbe25 30%, #62c95c 50%, #08bccb 75%, #a977d5 90%);
   --gradient-conic: conic-gradient(
     var(--color-primary) 0 28%,
