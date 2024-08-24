@@ -7,6 +7,7 @@ showBlog: true
 blog:
   title: 'Blog'
   intro: ""
+image: "./src/assets/images/hero/chi.png"
 ---
 
 ## Centro Subacqueo Mediterraneo "Duilio Marcante"

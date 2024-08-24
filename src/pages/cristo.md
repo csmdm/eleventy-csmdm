@@ -3,6 +3,7 @@ title: Cristo degli Abissi
 permalink: /cristo-degli-abissi/index.html
 description: "La statua nacque da un'idea di Duilio Marcante che, a seguito della morte di Dario Gonzatti durante un'immersione nel 1947, spinse per la posa di una statua di Cristo sul fondale marino"
 layout: page
+image: "./src/assets/images/hero/cristo.png"
 ---
 
 La statua nacque da un'idea di Duilio Marcante che, a seguito della morte di Dario Gonzatti durante un'immersione nel 1947, spinse per la posa di una statua di Cristo sul fondale marino; il 29 agosto 1954 la statua del Cristo degli abissi viene posta nella baia di fronte a San Fruttuoso, tra Camogli e Portofino.

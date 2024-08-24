@@ -3,12 +3,22 @@ layout: base
 ---
 
 <div class="wrapper">
-  <header class="full | section" style="--spot-color: var(--color-primary)">
-    <div class="section__inner flow region">
+
+  <header class="full | section page-header ">
+
+		{% svg "divider/waves", null, "seperator" %}
+
+
+		{% if image %}
+		{% image image, alt or title, null, "eager" %}
+		{% endif %}
+
+
+    <div class="section__inner flow region region-space-2xl-3xl">
       <h1 class="text-center text-base-light">{{ title }}</h1>
     </div>
 
-    {% svg "divider/waves", null, "seperator" %}
+
   </header>
 
   <article class="full | region">
@@ -20,13 +30,8 @@ layout: base
   <section class="full | region">
     <div class="wrapper flow prose">
       <h2>{{ blog.title }}</h2>
-      <!-- blog intro text is optional. -->
 
-      {% if blog.intro %}
-        <p>{{ blog.intro }}</p>
-      {% endif %}
-
-      <div class="feature |  region">
+      <div class="feature | region region-space-s">
         <custom-masonry layout="50-50">
           <!-- loop posts -->
           {% set itemList = collections.allPosts %}
