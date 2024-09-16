@@ -1,13 +1,11 @@
-// inspired by https://codepen.io/learosema/pen/yLdoEVY
-
 class CustomSlider extends HTMLElement {
   constructor() {
     super();
     this.leftButton = this.querySelector('.left');
     this.rightButton = this.querySelector('.right');
     this.slideList = this.querySelector('.slides');
-    this.pagination = this.querySelector('.pagination');
-    this.current = null;
+    this.slides = this.querySelectorAll('.slides li');
+    this.currentSlideIndex = 0;
   }
 
   static register() {
@@ -17,84 +15,53 @@ class CustomSlider extends HTMLElement {
   connectedCallback() {
     this.leftButton?.addEventListener('click', this.goLeft, false);
     this.rightButton?.addEventListener('click', this.goRight, false);
-    this.updatePagination();
-    window.addEventListener('resize', this.updatePagination, false);
-    this.addEventListener('click', this.clickPagination, true);
-    this.slideList.addEventListener('scroll', this.#setActiveStates, false);
+    this.updateButtonState();
   }
 
   disconnectedCallback() {
     this.leftButton?.removeEventListener('click', this.goLeft, false);
     this.rightButton?.removeEventListener('click', this.goRight, false);
-    window.removeEventListener('resize', this.updatePagination, false);
-    this.removeEventListener('click', this.clickPagination, true);
   }
 
   goLeft = () => {
-    const width = this.querySelector('.slides li').getBoundingClientRect().width;
-    this.slideList.scrollBy(-width, 0);
+    if (this.currentSlideIndex > 0) {
+      this.currentSlideIndex -= 1;
+      this.scrollToCurrentSlide();
+      this.updateButtonState(); // Move button state update inside scroll logic
+    }
   };
 
   goRight = () => {
-    const width = this.querySelector('.slides li').getBoundingClientRect().width;
-    this.slideList.scrollBy(width, 0);
-  };
-
-  updatePagination = () => {
-    const slides = [...this.querySelectorAll('.slides li')];
-    const slideWidth = this.slideList.querySelector('li').clientWidth;
-    const gap = parseInt(getComputedStyle(this.slideList).gap, 10);
-
-    const listLength = slides.length * slideWidth + (slides.length - 1) * gap;
-
-    const numPages = 2 + Math.floor(listLength / this.clientWidth);
-
-    this.pagination.innerHTML = Array.from({length: numPages}, (_, idx) => {
-      const id =
-        slides[idx === numPages - 1 ? slides.length - 1 : Math.floor((idx * slides.length) / numPages)].id;
-      return `<a href="#${id}"><span class="sr-only">Page ${idx}</span></a>`;
-    }).join('');
-    this.#setActiveStates();
-  };
-
-  #setActiveStates = () => {
-    let nearest = Infinity;
-    if (this.slideList.scrollLeft === 0) {
-      const a = this.pagination.querySelector('a');
-      this.pagination.querySelector('[aria-current]')?.removeAttribute('aria-current');
-      a.setAttribute('aria-current', 'page');
-      return;
-    }
-    this.pagination.querySelectorAll('a').forEach(a => {
-      const slide = this.slideList.querySelector(a.getAttribute('href'));
-      const rect = slide.getBoundingClientRect();
-      const dist = Math.abs(rect.x - this.clientWidth / 2);
-
-      if (dist < nearest) {
-        nearest = dist;
-        this.pagination.querySelector('[aria-current]')?.removeAttribute('aria-current');
-        a.setAttribute('aria-current', 'page');
-      }
-    });
-  };
-
-  clickPagination = e => {
-    if (e.target.nodeName === 'A') {
-      e.preventDefault();
-      e.stopPropagation();
-      const id = e.target.getAttribute('href').slice(1);
-      setTimeout(() => {
-        const slide = document.querySelector('#' + id);
-        this.#scrollToItem(slide);
-      }, 0);
+    if (this.currentSlideIndex < this.slides.length - 1) {
+      this.currentSlideIndex += 1;
+      this.scrollToCurrentSlide();
+      this.updateButtonState(); // Move button state update inside scroll logic
     }
   };
 
-  #scrollToItem(slide) {
-    const rect = slide.getBoundingClientRect();
-    const dest = this.slideList.scrollLeft + rect.x - this.clientWidth / 2;
-    window.setTimeout(() => this.slideList.scrollTo(dest, 0), 200);
-  }
+  scrollToCurrentSlide = () => {
+    const targetSlide = this.slides[this.currentSlideIndex];
+    const targetScrollPosition = targetSlide.offsetLeft; // Use the exact offsetLeft of the slide
+    this.slideList.scrollTo({left: targetScrollPosition, behavior: 'smooth'});
+  };
+
+  updateButtonState = () => {
+    // Disable the left button if we're on the first slide
+    if (this.currentSlideIndex === 0) {
+      this.leftButton.classList.add('disabled');
+    } else {
+      this.leftButton.classList.remove('disabled');
+    }
+
+    // Disable the right button if we're on the last slide
+    if (this.currentSlideIndex === this.slides.length - 1) {
+      this.rightButton.classList.add('disabled');
+    } else {
+      this.rightButton.classList.remove('disabled');
+    }
+
+    console.log(`Current Slide Index: ${this.currentSlideIndex}`);
+  };
 }
 
 CustomSlider.register();
