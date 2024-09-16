@@ -1,25 +1,28 @@
-<custom-card clickable>
-  <h2 slot="headline">
-    <a href="{{ item.url | url }}">{{ item.data.title }}</a>
-  </h2>
+{% set currentTag = definedTag or 'posts' %}
+{% if currentTag in item.data.tags %}
+  <custom-card clickable>
+    <h2 slot="headline">
+      <a href="{{ item.url | url }}">{{ item.data.title }}</a>
+    </h2>
 
-  {% if item.data.image %}
-    <!-- image -->
-    {% image item.data.image, item.data.alt or item.data.title %}
-  {% endif %}
+    {% if item.data.image %}
+      <!-- image -->
+      {% image item.data.image, item.data.alt or item.data.title %}
+    {% endif %}
 
-  <span slot="date"> {% include "partials/date.njk" %} </span>
-  {%
-    if
-    item.data.tags.length > 1
-  %}
-    <div slot="tag" webc:nokeep>
-      {% for tag in item.data.tags %}
-        {% if tag != "posts" %}
-          <span class="button post-tag">{{ tag }}</span>
-        {% endif %}
-      {% endfor %}
-    </div>
-  {% endif %}
-  <div slot="content" webc:nokeep>{{ item.data.description | markdownFormat | safe }}</div>
-</custom-card>
+    <span slot="date"> {% include "partials/date.njk" %} </span>
+    {%
+      if
+      item.data.tags.length > 1
+    %}
+      <div slot="tag" webc:nokeep>
+        {% for tag in item.data.tags %}
+          {% if tag != "posts" %}
+            <span class="button post-tag">{{ tag }}</span>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
+    <div slot="content" webc:nokeep>{{ item.data.description | markdownFormat | safe }}</div>
+  </custom-card>
+{% endif %}

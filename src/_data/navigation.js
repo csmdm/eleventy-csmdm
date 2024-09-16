@@ -9,8 +9,12 @@ export default {
       url: '/cristo-degli-abissi/'
     },
     {
-      text: 'Persone con Disabilità',
-      url: '/persone-con-disabilita/'
+      text: 'Attività per Disabilità',
+      url: '/attivita-per-disabilita/'
+    },
+    {
+      text: 'Altre Attività',
+      url: '/altre-attivita/'
     },
     {
       text: 'Blog',

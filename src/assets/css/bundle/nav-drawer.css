@@ -2,6 +2,7 @@
   .mainnav {
     --nav-position: absolute;
     inset-inline-end: 0;
+    z-index: 2;
   }
 
   .mainnav:has([aria-expanded='true']) {

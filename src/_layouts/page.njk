@@ -29,27 +29,28 @@ layout: base
 				{% endfor %}
 			</div>
 			{% endif %}
-
 			</div>
   </article>
 
 
 	{% if showBlog %}
-  <section class="full | region">
-    <div class="wrapper flow prose">
-      <h2>{{ blog.title }}</h2>
-      <div class="feature | region region-space-s">
-        <custom-masonry layout="50-50">
-          <!-- loop posts -->
-          {% set itemList = collections.allPosts %}
-					{% asyncEach item in itemList.slice(0, 4) %}
-						{% set definedDate = item.date %}
-						{% include "partials/card-blog.njk" %}
+	<section class="full | region">
+		<div class="wrapper flow prose">
+			<h2>{{ blog.title }}</h2>
+			<div class="feature | region region-space-s">
+				<custom-masonry layout="50-50">
+					<!-- loop posts -->
+					{% set itemList = collections.allPosts %}
+					{% set itemCount = itemMax or 0 %}
+					{% asyncEach item in itemList.slice(0, itemMax) %}
+					{% set currentTag = definedTag or 'posts' %}
+							{% set definedDate = item.date %}
+							{% include "partials/card-blog.njk" %}
 					{% endeach %}
-        </custom-masonry>
-      </div>
-    </div>
-  </section>
+				</custom-masonry>
+			</div>
+		</div>
+	</section>
 	{% endif %}
 
 </div>

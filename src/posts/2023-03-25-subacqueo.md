@@ -3,8 +3,9 @@ title: 'Subacqueo, Primo Soccorso e Camera Iperbarica'
 description: "Sabato 25 Marzo 2023 presso il Centro Iperbarico di San Martino (GE) si è svolto il secondo Stage dal titolo 'Subacqueo, Primo Soccorso e Camera Iperbarica'."
 date: 2023-03-25
 image: "./src/assets/images/blog/subacqueo-01.jpg"
+alt: ""
 tags:
-  - Attività
+  - Altre attività
 gallery:
   - image: ./src/assets/images/blog/subacqueo-01.jpg
     alt: ''
