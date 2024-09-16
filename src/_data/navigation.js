@@ -1,6 +1,10 @@
 export default {
   top: [
     {
+      text: 'Chi siamo',
+      url: '/chi-siamo/'
+    },
+    {
       text: 'Cristo degli Abissi',
       url: '/cristo-degli-abissi/'
     },
