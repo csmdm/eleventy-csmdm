@@ -4,12 +4,29 @@ permalink: /chi-siamo/index.html
 description: "La statua nacque da un'idea di Duilio Marcante che, a seguito della morte di Dario Gonzatti durante un'immersione nel 1947, spinse per la posa di una statua di Cristo sul fondale marino"
 layout: page
 image: "./src/assets/images/hero/pexels-diver-3.jpg"
+gallery:
+  - image: ./src/assets/images/chi-siamo/image-01.jpg
+    alt: ''
+  - image: ./src/assets/images/chi-siamo/image-03.jpg
+    alt: ''
+  - image: ./src/assets/images/chi-siamo/image-04.jpg
+    alt: ''
+  - image: ./src/assets/images/chi-siamo/image-05.jpg
+    alt: ''
+  - image: ./src/assets/images/chi-siamo/image-06.jpg
+    alt: ''
+  - image: ./src/assets/images/chi-siamo/image-07.jpg
+    alt: ''
+  - image: ./src/assets/images/chi-siamo/image-08.jpg
+    alt: ''
 ---
 
-La statua nacque da un'idea di Duilio Marcante che, a seguito della morte di Dario Gonzatti durante un'immersione nel 1947, spinse per la posa di una statua di Cristo sul fondale marino; il 29 agosto 1954 la statua del Cristo degli abissi viene posta nella baia di fronte a San Fruttuoso, tra Camogli e Portofino.
+Il **Centro Subacqueo Mediterraneo "Duilio Marcante" (CSM)**, dedicato al suo fondatore, padre della moderna didattica subacquea sportiva, è presente nell'ambiente della subacquea fin dal 1952.
 
-Il Cristo degli Abissi, alto circa 2,50 metri e realizzato dallo scultore Guido Galletti, venne posto grazie alla Marina Militare Italiana a circa 17 metri di profondità dopo mesi di lavoro per l'identificazione dell'area e la preparazione del basamento. Per ottenere il bronzo della statua vennero fuse medaglie, elementi navali (perfino eliche di sommergibili americani donati dall'U.S. Navy) e campane. A seguito della morte di Marcante venne posta dagli istruttori dell'allora Centro Subacqueo Mediterraneo di Nervi una targa sul basamento della statua in sua memoria.
+Negli anni ha svolto molte attività legate alla subacquea, fino al 1985 è stato Unico Centro Nazionale Federale di Formazione Istruttori Sub in Italia, ha proposto per primo corsi per subacquei sportivi e specialità quali la Biologia Marina e l'Archeologia Subacquea.
 
-Nel 2003 la statua è stata estratta dall'acqua per essere sottoposta a manutenzione straordinaria e per riattaccare la mano danneggiata da un ancora, per poi essere riposizionata sott'acqua il 17 luglio 2004 su un nuovo basamento, ad una profondità inferiore a quella precedente.
+Dal 1987 ha svolto attività di introduzione alla subacquea con autorespiratori per persone disabili, generalmente portatori di disabilità fisica, e dal 2019 ha iniziato un progetto di Snorkeling per persone con disabilità intellettiva relazionale.
 
-Durante tutti questi anni la manutenzione e il controllo della statua, come anche la processione annuale di subacquei in mare sono sempre stati a carico del CSM.
+Il CSM ha proposto e seguito la posa della statua del Cristo degli Abissi nella Baia di San Fruttoso, provvedendo alla sua manutenzione ordinaria e alla preparazione della manifestazione annuale.
+
+{% include "partials/slider.njk" %}

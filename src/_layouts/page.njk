@@ -5,32 +5,39 @@ layout: base
 <div class="wrapper">
 
   <header class="full | section page-header ">
-
 		{% svg "divider/waves", null, "seperator" %}
-
 
 		{% if image %}
 		{% image image, alt or title, null, "eager" %}
 		{% endif %}
 
-
     <div class="section__inner flow region region-space-2xl-3xl">
       <h1 class="text-center text-base-light">{{ title }}</h1>
     </div>
-
-
   </header>
 
   <article class="full | region">
-    <div class="wrapper flow prose">{{ content | safe }}</div>
+    <div class="wrapper flow prose">{{ content | safe }}
+
+			{% if showLogos %}
+			<div class=" grid mt-xl prose " style="--grid-min-item-size: 11rem;">
+				{% for logo in logos  %}
+					<custom-card img-logo class="text-step-min-2" style="--card-bg: var(--color-bg)">
+						{% image "./src/assets/images/logos/" + logo.filename + ".png", logo.name, null, "lazy", null, sizes, widths %}
+						<p slot="content">{{ logo.description }}</p>
+					</custom-card>
+				{% endfor %}
+			</div>
+			{% endif %}
+
+			</div>
   </article>
 
-	{% if showBlog %}
 
+	{% if showBlog %}
   <section class="full | region">
     <div class="wrapper flow prose">
       <h2>{{ blog.title }}</h2>
-
       <div class="feature | region region-space-s">
         <custom-masonry layout="50-50">
           <!-- loop posts -->
@@ -43,7 +50,6 @@ layout: base
       </div>
     </div>
   </section>
-
 	{% endif %}
 
 </div>
