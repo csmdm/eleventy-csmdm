@@ -41,8 +41,8 @@ layout: base
 				<custom-masonry layout="50-50">
 					<!-- loop posts -->
 					{% set itemList = collections.allPosts %}
-					{% set itemCount = itemMax or 0 %}
-					{% asyncEach item in itemList.slice(0, itemMax) %}
+					{% set itemCount = itemMax or 4 %}
+					{% asyncEach item in itemList.slice(0, itemCount) %}
 					{% set currentTag = definedTag or 'posts' %}
 							{% set definedDate = item.date %}
 							{% include "partials/card-blog.njk" %}
