@@ -3,6 +3,7 @@ title: Contatti
 permalink: /contatti/index.html
 description: ''
 layout: page
+image: "./src/assets/images/hero/pexels-diver-1.jpg"
 ---
 
 {{ personal.address }}
