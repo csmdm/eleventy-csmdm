@@ -82,6 +82,18 @@ custom-card[img-square] img {
   aspect-ratio: 1;
 }
 
+custom-card[img-logo] {
+  border: 4px solid transparent;
+}
+
+custom-card[img-logo] img {
+  max-inline-size: var(--max-img-width, 100%);
+  block-size: auto;
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+}
+
 /* clickable */
 
 custom-card[clickable]:hover,
