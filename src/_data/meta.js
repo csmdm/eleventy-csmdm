@@ -1,10 +1,11 @@
 export const url = process.env.URL || 'http://localhost:8080';
 export const siteName = 'CSM Duilio Marcante';
-export const siteDescription = 'Eleventy starter for building modern, resilient websites';
+export const siteDescription =
+  'Il Centro Subacqueo Mediterraneo “Duilio Marcante” (CSM) è un punto di riferimento nella subacquea dal 1952.';
 export const siteType = 'Person'; // schema
 export const locale = 'it_IT';
 export const lang = 'it';
-export const skipContent = 'Skip to content';
+export const skipContent = 'Salta al contenuto';
 export const author = {
   name: 'Lene Saile', // i.e. Lene Saile - page / blog author's name. Must be set.
   avatar: '/icon-512x512.png', // path to the author's avatar. In this case just using a favicon.
@@ -26,7 +27,7 @@ export const opengraph_default_alt =
 export const blog = {
   // RSS feed
   name: 'Blog del CSM Duilio Marcante',
-  description: 'Tell the word what you are writing about in your blog. It will show up on feed readers.',
+  description: '',
   // feed links are looped over in the head. You may add more to the array.
   feedLinks: [
     {
@@ -42,13 +43,13 @@ export const blog = {
   ],
   // Tags
   tagSingle: 'Tag',
-  tagPlural: 'Tags',
-  tagMore: 'More tags:',
+  tagPlural: 'Tag',
+  tagMore: 'Altri tag:',
   // pagination
   paginationLabel: 'Blog',
-  paginationPage: 'Page',
-  paginationPrevious: 'Previous',
-  paginationNext: 'Next',
+  paginationPage: 'Pagina',
+  paginationPrevious: 'Precedente',
+  paginationNext: 'Avanti',
   paginationNumbers: true
 };
 export const details = {
@@ -58,15 +59,15 @@ export const details = {
 };
 export const navigation = {
   navLabel: 'Menu',
-  ariaTop: 'Main',
-  ariaBottom: 'Complementary',
-  ariaPlatforms: 'Platforms',
+  ariaTop: 'Principale',
+  ariaBottom: 'Complementare',
+  ariaPlatforms: 'Piattaforme',
   drawerNav: true
 };
 export const themeSwitch = {
-  title: 'Theme',
-  light: 'light',
-  dark: 'dark'
+  title: 'Tema',
+  light: 'chiaro',
+  dark: 'scuro'
 };
 export const greenweb = {
   // this goes into src/common/greenweb.njk
