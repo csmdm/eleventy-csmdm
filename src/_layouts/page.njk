@@ -20,7 +20,7 @@ layout: base
     <div class="wrapper flow prose">{{ content | safe }}
 
 			{% if showLogos %}
-			<div class=" grid mt-xl prose " style="--grid-min-item-size: 11rem;">
+			<div class=" grid mt-xl prose " style="--grid-min-item-size: min(12rem, 40%);">
 				{% for logo in logos  %}
 					<custom-card img-logo class="text-step-min-2" style="--card-bg: var(--color-bg)">
 						{% image "./src/assets/images/logos/" + logo.filename + ".png", logo.name, null, "lazy", null, sizes, widths %}
