@@ -12,7 +12,7 @@ custom-slider img {
   }
 
   custom-slider ul {
-    --item-width: 50ch;
+    --item-width: 40ch;
     display: flex;
     gap: var(--space-m);
     scroll-snap-type: x mandatory;
