@@ -6,10 +6,10 @@
           {%- for item in gallery -%}
             <li class="slide gallery" id="picture-{{ loop.index }}">
               <dialog class="flow modal{{ loop.index }}">
-                {%- image item.image, item.alt, item.caption -%}
                 <form method="dialog">
                   <button class="button" autofocus>{{ meta.dialog.close }}</button>
                 </form>
+                {%- image item.image, item.alt, item.caption -%}
               </dialog>
               <button data-index="{{ loop.index }}">{%- image item.image, item.alt -%}</button>
             </li>

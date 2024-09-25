@@ -87,7 +87,7 @@ export const imageShortcode = async (
 				</picture>
 				<figcaption>${caption}</figcaption>
 			</figure>`
-    : `<picture slot="image" class="flow ${className ? `${className}` : ''}">
+    : `<picture slot="image" class="${className ? `${className}` : ''}">
 				${imageSources}
 				<img
 				${imgageAttributes}>

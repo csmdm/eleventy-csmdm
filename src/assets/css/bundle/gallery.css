@@ -3,6 +3,7 @@
   inset: revert;
   display: flex;
   flex-direction: column;
+  align-items: end;
 }
 
 .gallery dialog + button {
@@ -15,17 +16,29 @@
   outline-offset: -0.5ch;
 }
 
+.gallery dialog + button:hover {
+  opacity: 0.9;
+}
+
 /* Don't indicate interactivity without JS */
 is-land:not(:defined) .gallery dialog + button {
   cursor: default;
 }
 
 .gallery dialog::backdrop {
-  background-image: var(--gradient-stripes);
+  background-image: var(--gradient-water);
   opacity: 0.9;
-  filter: brightness(50%);
+  filter: brightness(40%);
 }
 
 .gallery dialog img {
   max-block-size: 70vh;
+}
+
+.gallery img:not(dialog img) {
+  --flow-space: 0;
+}
+
+.gallery[img-square] img:not(dialog img) {
+  aspect-ratio: 1;
 }

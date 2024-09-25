@@ -7,7 +7,7 @@ schema: blog
   <div class="wrapper flow prose">
     <h1 class="gradient-text-linear">{{ title }}</h1>
 
-    {% if image %}
+    {% if image and showFeatured %}
       <!-- image -->
       {% image image, alt or title, credit, "eager", "popout" %}
     {% endif %}
@@ -27,6 +27,28 @@ schema: blog
     </p>
 
     {{ content | safe }}
+
+    {% if videosGoogleDrive or videosYouTube %}
+      <h2>Video</h2>
+    {% endif %}
+
+    <!-- google vidoes -->
+    {% if videosGoogleDrive %}
+      <div class="grid" data-layout="50-50">
+        {% for video in videosGoogleDrive %}
+          <custom-iframe @slug="{{ video.slug }}" @label="{{ video.label }}"></custom-iframe>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    <!-- youtube vidoes -->
+    {% if videosYouTube %}
+      <div class="grid" data-layout="50-50">
+        {% for video in videosYouTube %}
+          <custom-youtube @slug="{{ video.slug }}" @label="{{ video.label }}"> </custom-youtube>
+        {% endfor %}
+      </div>
+    {% endif %}
   </div>
 
   <!--  h-card infos: https://indieweb.org/authorship -->
@@ -40,3 +62,7 @@ schema: blog
     />
   </div>
 </article>
+
+{% css "inline" %}
+  {% include "css/post.css" %}
+{% endcss %}
