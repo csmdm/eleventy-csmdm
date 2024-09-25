@@ -83,9 +83,12 @@ export default async function (eleventyConfig) {
   // --------------------- Passthrough File Copy
 
   // -- same path
-  ['src/assets/fonts/', 'src/assets/images/template', 'src/assets/og-images'].forEach(path =>
-    eleventyConfig.addPassthroughCopy(path)
-  );
+  [
+    'src/assets/fonts/',
+    'src/assets/images/template',
+    'src/assets/og-images',
+    './src/admin/config.yml'
+  ].forEach(path => eleventyConfig.addPassthroughCopy(path));
 
   eleventyConfig.addPassthroughCopy({
     // -- to root

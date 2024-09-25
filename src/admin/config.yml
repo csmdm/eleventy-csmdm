@@ -1,0 +1,61 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+publish_mode: editorial_workflow
+media_folder: '/src/assets/images/uploads'
+public_folder: '/assets/images/uploads'
+collections:
+  - name: 'blog' # This is the collection for your blog posts
+    label: 'Blog Posts'
+    folder: 'src/posts' # Directory where blog posts are stored
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - {label: 'Title', name: 'title', widget: 'string'}
+      - {label: 'Description', name: 'description', widget: 'text'}
+      - label: 'Discover'
+        name: 'discover'
+        widget: 'object'
+        fields:
+          - {label: 'Title', name: 'title', widget: 'string'}
+          - {label: 'Description', name: 'description', widget: 'text'}
+      - {label: 'Date', name: 'date', widget: 'datetime'}
+      - {label: 'Featured Image', name: 'image', widget: 'image'}
+      - {label: 'Alt Text', name: 'alt', widget: 'string'}
+      - {label: 'Show Featured', name: 'showFeatured', widget: 'boolean', default: true}
+
+      # Gallery field with unlimited items
+      - label: 'Gallery'
+        name: 'gallery'
+        widget: 'list'
+        fields:
+          - {label: 'Image', name: 'image', widget: 'image'}
+          - {label: 'Alt Text', name: 'alt', widget: 'string'}
+
+      # Google Drive videos field with unlimited items
+      - label: 'Google Drive Videos'
+        name: 'videosGoogleDrive'
+        widget: 'list'
+        fields:
+          - {label: 'Slug', name: 'slug', widget: 'string'}
+          - {label: 'Label', name: 'label', widget: 'string'}
+
+      # YouTube videos field with unlimited items
+      - label: 'YouTube Videos'
+        name: 'videosYouTube'
+        widget: 'list'
+        fields:
+          - {label: 'Slug', name: 'slug', widget: 'string'}
+          - {label: 'Label', name: 'label', widget: 'string'}
+
+      # Tags field with limited set of options
+      - label: 'Tags'
+        name: 'tags'
+        widget: 'select'
+        multiple: true
+        options:
+          - Altre attività
+          - Stampa
+          - Attività per Disabilità
+          - Formazione
+          - Eventi
