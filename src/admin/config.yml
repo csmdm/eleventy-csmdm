@@ -13,7 +13,12 @@ collections:
     slug: '{{slug}}'
     fields:
       - {label: 'Title', name: 'title', widget: 'string'}
-      - {label: 'Description', name: 'description', widget: 'text'}
+      - {
+          label: 'Description',
+          name: 'description',
+          widget: 'text',
+          hint: 'Shown as preview in archive, used for meta data.'
+        }
 
       # Discover section
       - label: 'Discover'
