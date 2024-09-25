@@ -31,10 +31,11 @@ gallery:
     alt: ''
   - image: ./src/assets/images/blog/special-snorkel-2023-12.jpg
     alt: ''
+videosGoogleDrive:
+  - slug: "1rtq2moqmq7TVrkzIQQ_I0wfeswhdxvb2"
+    label: ""
 ---
 
 Text missing
 
-<div><custom-iframe @slug="1rtq2moqmq7TVrkzIQQ_I0wfeswhdxvb2" @label="Watch this Google Drive video"></custom-iframe></div>
-
-{% include "partials/slider.njk" %}
+{% include "partials/gallery.njk" %}

@@ -23,4 +23,4 @@ I numerosi partecipanti (istruttori e accompagnatori sub di diverse didattiche) 
 
 L’incontro rientra in un programma di attività studiate per approfondire la competenza in diversi campi della subacquea e della sicurezza nato dalla cooperazione tra il Centro Subacqueo Mediterraneo “Duilio Marcante” e il Centro Iperbarico di San Martino. Altre giornate informative sono in arrivo.
 
-{% include "partials/slider.njk" %}
+{% include "partials/gallery.njk" %}
