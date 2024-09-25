@@ -118,3 +118,12 @@ collections:
               widget: 'text',
               hint: 'Description used for SEO and social media preview.'
             }
+
+      - label: 'Gallery'
+        name: 'gallery'
+        widget: 'list'
+        collapsed: true
+        hint: 'Add images for the gallery. Each image should have an alt text.'
+        fields:
+          - {label: 'Image', name: 'image', widget: 'image'}
+          - {label: 'Alt Text', name: 'alt', widget: 'string'}
