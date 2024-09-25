@@ -19,6 +19,7 @@ collections:
       - label: 'Discover'
         name: 'discover'
         widget: 'object'
+        collapsed: true
         hint: 'Optional: different title and description for search engines and social media previews.'
         fields:
           - {
@@ -49,6 +50,7 @@ collections:
       - label: 'Gallery'
         name: 'gallery'
         widget: 'list'
+        collapsed: true
         hint: 'Add images for the gallery. Each image should have an alt text.'
         fields:
           - {label: 'Image', name: 'image', widget: 'image'}
@@ -58,6 +60,7 @@ collections:
       - label: 'Google Drive Videos'
         name: 'videosGoogleDrive'
         widget: 'list'
+        collapsed: true
         hint: 'Add Google Drive videos using their unique slug and label.'
         fields:
           - {label: 'Slug', name: 'slug', widget: 'string'}
@@ -67,6 +70,7 @@ collections:
       - label: 'YouTube Videos'
         name: 'videosYouTube'
         widget: 'list'
+        collapsed: true
         hint: 'Add YouTube videos using their slug (ID) and label.'
         fields:
           - {label: 'Slug', name: 'slug', widget: 'string'}
@@ -98,6 +102,7 @@ collections:
       - label: 'Discover'
         name: 'discover'
         widget: 'object'
+        collapsed: true
         hint: 'Optional: different title and description for search engines and social media previews.'
         fields:
           - {
