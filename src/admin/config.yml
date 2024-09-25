@@ -1,33 +1,55 @@
 backend:
   name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
+  branch: main
 publish_mode: editorial_workflow
 media_folder: '/src/assets/images/uploads'
 public_folder: '/assets/images/uploads'
+
 collections:
-  - name: 'blog' # This is the collection for your blog posts
+  - name: 'blog'
     label: 'Blog Posts'
-    folder: 'src/posts' # Directory where blog posts are stored
+    folder: 'src/posts'
     create: true
     slug: '{{slug}}'
     fields:
       - {label: 'Title', name: 'title', widget: 'string'}
       - {label: 'Description', name: 'description', widget: 'text'}
+
+      # Discover section
       - label: 'Discover'
         name: 'discover'
         widget: 'object'
+        hint: 'Optional: different title and description for search engines and social media previews.'
         fields:
-          - {label: 'Title', name: 'title', widget: 'string'}
-          - {label: 'Description', name: 'description', widget: 'text'}
+          - {
+              label: 'Title',
+              name: 'title',
+              widget: 'string',
+              hint: 'Title used for SEO and social media preview.'
+            }
+          - {
+              label: 'Description',
+              name: 'description',
+              widget: 'text',
+              hint: 'Short description used for SEO and social media preview.'
+            }
+
       - {label: 'Date', name: 'date', widget: 'datetime'}
       - {label: 'Featured Image', name: 'image', widget: 'image'}
       - {label: 'Alt Text', name: 'alt', widget: 'string'}
-      - {label: 'Show Featured', name: 'showFeatured', widget: 'boolean', default: true}
+
+      # Show Featured
+      - label: 'Show Featured'
+        name: 'showFeatured'
+        widget: 'boolean'
+        default: true
+        hint: 'Whether or not to display the image featured in the post. Defaults to being the preview image in archives.'
 
       # Gallery field with unlimited items
       - label: 'Gallery'
         name: 'gallery'
         widget: 'list'
+        hint: 'Add images for the gallery. Each image should have an alt text.'
         fields:
           - {label: 'Image', name: 'image', widget: 'image'}
           - {label: 'Alt Text', name: 'alt', widget: 'string'}
@@ -36,6 +58,7 @@ collections:
       - label: 'Google Drive Videos'
         name: 'videosGoogleDrive'
         widget: 'list'
+        hint: 'Add Google Drive videos using their unique slug and label.'
         fields:
           - {label: 'Slug', name: 'slug', widget: 'string'}
           - {label: 'Label', name: 'label', widget: 'string'}
@@ -44,6 +67,7 @@ collections:
       - label: 'YouTube Videos'
         name: 'videosYouTube'
         widget: 'list'
+        hint: 'Add YouTube videos using their slug (ID) and label.'
         fields:
           - {label: 'Slug', name: 'slug', widget: 'string'}
           - {label: 'Label', name: 'label', widget: 'string'}
@@ -53,6 +77,7 @@ collections:
         name: 'tags'
         widget: 'select'
         multiple: true
+        hint: 'Select relevant tags for this post.'
         options:
           - Altre attività
           - Stampa
