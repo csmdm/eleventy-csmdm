@@ -1,11 +1,18 @@
 .gallery dialog {
   border-radius: var(--border-radius);
   inset: revert;
+  display: flex;
+  flex-direction: column;
 }
 
 .gallery dialog + button {
   all: unset;
   cursor: pointer;
+}
+
+.gallery dialog + button:focus-visible {
+  outline: 3px solid;
+  outline-offset: -0.5ch;
 }
 
 /* Don't indicate interactivity without JS */
