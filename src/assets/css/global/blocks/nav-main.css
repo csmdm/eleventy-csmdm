@@ -50,10 +50,14 @@
 .mainnav button {
   --gutter: var(--space-2xs);
   --cluster-vertical-alignment: center;
+  color: var(--color-text);
+  background: var(--color-bg-accent);
+  border: 1px solid var(--color-bg-accent2);
+  border-radius: var(--border-radius);
   display: var(--nav-button-display, flex);
   position: relative;
   z-index: 2;
-  padding: var(--space-2xs) 0;
+  padding: var(--space-2xs);
   line-height: var(--leading-flat);
 }
 
@@ -61,12 +65,11 @@
   font-weight: var(--font-extra-bold);
   text-transform: uppercase;
   font-family: var(--font-display);
-  font-size: var(--size-step-min-1);
 }
 
 .mainnav svg {
   block-size: 0.9em;
-  color: var(--color-text);
+
   stroke-width: 3;
 }
 
@@ -94,7 +97,7 @@
 
 .mainnav [aria-current='page'],
 .mainnav [data-state='active'] {
-  --nav-item-background: var(--color-primary);
+  --nav-item-background: var(--color-bg-accent);
   --nav-item-text-color: var(--color-text);
   --nav-item-decoration-color: transparent;
 }
