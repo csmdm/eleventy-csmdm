@@ -2,22 +2,22 @@
 title: 'Corso Ragazzi con Disabilità Intellettivo relazionale'
 description: 'Text missing'
 date: 2022-10-01
-image: "./src/assets/images/blog/corso-ragazzi-2022-01.jpg"
+image: "./src/assets/images/uploads/corso-ragazzi-2022-01.jpg"
 alt: ""
 gallery:
-  - image: ./src/assets/images/blog/corso-ragazzi-2022-01.jpg
+  - image: ./src/assets/images/uploads/corso-ragazzi-2022-01.jpg
     alt: ''
-  - image: ./src/assets/images/blog/corso-ragazzi-2022-02.jpg
+  - image: ./src/assets/images/uploads/corso-ragazzi-2022-02.jpg
     alt: ''
-  - image: ./src/assets/images/blog/corso-ragazzi-2022-03.jpg
+  - image: ./src/assets/images/uploads/corso-ragazzi-2022-03.jpg
     alt: ''
-  - image: ./src/assets/images/blog/corso-ragazzi-2022-04.jpg
+  - image: ./src/assets/images/uploads/corso-ragazzi-2022-04.jpg
     alt: ''
-  - image: ./src/assets/images/blog/corso-ragazzi-2022-05.jpg
+  - image: ./src/assets/images/uploads/corso-ragazzi-2022-05.jpg
     alt: ''
-  - image: ./src/assets/images/blog/corso-ragazzi-2022-06.jpg
+  - image: ./src/assets/images/uploads/corso-ragazzi-2022-06.jpg
     alt: ''
-  - image: ./src/assets/images/blog/corso-ragazzi-2022-07.jpg
+  - image: ./src/assets/images/uploads/corso-ragazzi-2022-07.jpg
     alt: ''
 videosGoogleDrive:
   - slug: "1oNfmZaSRFN7DTjG0XolhAf8ZbSxCqzOy"

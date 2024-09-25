@@ -2,7 +2,7 @@
 title: 'SportAbility'
 description: 'Text missing'
 date: 2022-09-22
-image: "./src/assets/images/blog/sportability.png"
+image: "./src/assets/images/uploads/sportability.png"
 alt: ""
 videosGoogleDrive:
   - slug: "10G5yszTzWJuKvDUJG0EjD8V_pid9iK-W"

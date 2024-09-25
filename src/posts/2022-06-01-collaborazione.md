@@ -2,7 +2,7 @@
 title: 'Collaborazione ASL Bari'
 description: 'Attività per ragazzi con disabilità intellettivo relazionale'
 date: 2022-06-01
-image: "./src/assets/images/blog/collaborazione.jpg"
+image: "./src/assets/images/uploads/collaborazione.jpg"
 alt: ""
 showFeatured: true
 videosGoogleDrive:

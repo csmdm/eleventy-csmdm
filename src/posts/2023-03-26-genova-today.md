@@ -2,7 +2,7 @@
 title: 'Articolo su Genova Today sullo Stage di Aggiornamento Subacqueo e Primo Soccorso'
 description: 'Il 25 marzo 2023 si è tenuto presso il Centro Iperbarico di San Martino (GE) lo stage gratuito "Subacqueo, Primo Soccorso e Camera Iperbarica", organizzato dal Centro Subacqueo Mediterraneo "Duilio Marcante".'
 date: 2023-03-26
-image: "./src/assets/images/blog/genova-today.jpg"
+image: "./src/assets/images/uploads/genova-today.jpg"
 alt: "Un'aula piena di partecipanti durante una lezione frontale. Una persona seduta alla cattedra sta spiegando con l'ausilio di una presentazione proiettata su uno schermo, relativa al Centro Iperbarico di San Martino. Sulla proiezione si vedono vari punti elencati, mentre il logo di Genova Today è visibile in basso a destra."
 showFeatured: true
 tags:
