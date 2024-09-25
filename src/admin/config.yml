@@ -7,7 +7,7 @@ public_folder: '/assets/images/uploads'
 
 collections:
   - name: 'blog'
-    label: 'Blog Posts'
+    label: 'Posts'
     folder: 'src/posts'
     create: true
     slug: '{{slug}}'
@@ -42,8 +42,21 @@ collections:
             }
 
       - {label: 'Date', name: 'date', widget: 'datetime'}
+
+      - label: 'Tags'
+        name: 'tags'
+        widget: 'select'
+        multiple: true
+        hint: 'Select relevant tags for this post.'
+        options:
+          - Altre attività
+          - Stampa
+          - Attività per Disabilità
+          - Formazione
+          - Eventi
+
       - {label: 'Featured Image', name: 'image', widget: 'image'}
-      - {label: 'Alt Text', name: 'alt', widget: 'string'}
+      - {label: 'Alt Text', name: 'alt', widget: 'string', hint: 'alt text for the featured image'}
 
       - label: 'Show Featured'
         name: 'showFeatured'
@@ -77,18 +90,6 @@ collections:
         fields:
           - {label: 'Slug', name: 'slug', widget: 'string'}
           - {label: 'Label', name: 'label', widget: 'string'}
-
-      - label: 'Tags'
-        name: 'tags'
-        widget: 'select'
-        multiple: true
-        hint: 'Select relevant tags for this post.'
-        options:
-          - Altre attività
-          - Stampa
-          - Attività per Disabilità
-          - Formazione
-          - Eventi
 
   - name: 'pages' # Collection for pages
     label: 'Pages'
