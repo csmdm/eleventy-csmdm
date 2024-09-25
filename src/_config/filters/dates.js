@@ -1,4 +1,7 @@
 import dayjs from 'dayjs';
+import 'dayjs/locale/it.js';
+
+dayjs.locale('it');
 
 /** Converts the given date string to ISO8610 format. */
 export const toISOString = dateString => dayjs(dateString).toISOString();
