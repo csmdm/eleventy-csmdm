@@ -46,19 +46,12 @@
 />
 <meta
   property="og:image"
-  content="{%- if layout == 'post' -%}
-    {{- meta.url -}}/assets/og-images/{{ title | slugify }}-preview.jpeg
-  {%- else -%}
-    {{- meta.url -}}{{- meta.opengraph_default -}}
-  {%- endif -%}"
+  content="{{- meta.url -}}/assets/og-images/{{ page.fileSlug | slugify }}-preview.jpeg"
 />
 <meta
   property="og:image:alt"
-  content="{%- if layout == 'post' -%}
-    {{- title -}}
-  {%- else -%}
-    {{- meta.opengraph_default_alt -}}
-  {%- endif -%}"
+  content="
+    {{- title -}}"
 />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />

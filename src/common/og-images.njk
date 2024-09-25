@@ -5,10 +5,10 @@ text: '#FBFBFB'
 colors: ['#3c8ea0', '#227587', '#106070', '#0e4d5a']
 siteUrl: 'csmdm.netlify.app'
 pagination:
-  data: collections.posts
+  data: collections.onlyMarkdown
   size: 1
   alias: post
-permalink: '/assets/og-images/{{ post.data.title | slugify }}-preview.svg'
+permalink: '/assets/og-images/{{ post.fileSlug }}-preview.svg'
 eleventyExcludeFromCollections: true
 ---
 <svg
@@ -40,6 +40,7 @@ eleventyExcludeFromCollections: true
 		<rect id="bg" width="100%" height="100%" opacity="0.1" fill="{{ background }}"/>
 		<rect id="name-bg" width="100%" height="42px" fill="{{ background }}" transform="translate(150,550)" />
 
+		{% if post.layout == "post" %}
 		<!-- date -->
 		<text
 			font-family="{{ font }}, sans-serif"
@@ -52,6 +53,7 @@ eleventyExcludeFromCollections: true
 				{{ post.date | formatDate('DD / MM / YYYY') }}
 			</tspan>
 		</text>
+		{% endif %}
 
 		<!-- title -->
 		<text
