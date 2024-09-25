@@ -10,12 +10,16 @@
   font-size: var(--size-step-2);
 }
 
-.post .prose img {
+:where(.post .prose) img {
   max-inline-size: var(--max-img-width, 100%);
   block-size: auto;
   aspect-ratio: 16/9;
   object-fit: cover;
   object-position: center;
+}
+
+.post .prose .popout img {
+  inline-size: 100%;
 }
 
 .post .prose date {

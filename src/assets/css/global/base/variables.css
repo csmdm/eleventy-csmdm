@@ -14,18 +14,6 @@ Adjust fallbacks if modern color syntax not supported for text and bg variants. 
   --tracking-wide: 0.05ch;
 
   --gradient-rainbow: linear-gradient(90deg, #cf4662 10%, #fbbe25 30%, #62c95c 50%, #08bccb 75%, #a977d5 90%);
-  --gradient-conic: conic-gradient(
-    var(--color-primary) 0 28%,
-    var(--color-secondary) 0 67%,
-    var(--color-tertiary) 0 100%
-  );
-  --gradient-stripes: linear-gradient(
-    45deg,
-    var(--color-base-dark) 0 75%,
-    var(--color-primary) 0 85%,
-    var(--color-secondary) 0 92%,
-    var(--color-tertiary) 0 100%
-  );
 }
 
 /* Default / Light theme specific variables */
