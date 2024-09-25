@@ -25,6 +25,7 @@ collections:
       - label: 'Discover'
         name: 'discover'
         widget: 'object'
+        collapsed: true
         hint: 'Optional: different title and description for search engines and social media previews.'
         fields:
           - {
@@ -50,11 +51,11 @@ collections:
         default: true
         hint: 'Whether or not to display the image featured in the post. Defaults to being the preview image in archives.'
 
-      - label: 'Gallery'
+      - label: 'Gallery items'
         name: 'gallery'
         widget: 'list'
         collapsed: true
-        hint: 'Add images for the gallery. Each image should have an alt text.'
+        hint: 'Add images for the gallery. Each image should have an alt text. To implement, you must add {% include "partials/gallery.njk" %} or {% include "partials/slider-gallery.njk" %} in the body field.'
         fields:
           - {label: 'Image', name: 'image', widget: 'image'}
           - {label: 'Alt Text', name: 'alt', widget: 'string'}
@@ -119,11 +120,11 @@ collections:
               hint: 'Description used for SEO and social media preview.'
             }
 
-      - label: 'Gallery'
+      - label: 'Gallery items'
         name: 'gallery'
         widget: 'list'
         collapsed: true
-        hint: 'Add images for the gallery. Each image should have an alt text.'
+        hint: 'Add images for the gallery. Each image should have an alt text. To implement, you must add {% include "partials/gallery.njk" %} or {% include "partials/slider-gallery.njk" %} in the body field.'
         fields:
           - {label: 'Image', name: 'image', widget: 'image'}
           - {label: 'Alt Text', name: 'alt', widget: 'string'}
