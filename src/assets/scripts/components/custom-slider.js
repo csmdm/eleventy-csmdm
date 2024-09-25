@@ -27,7 +27,7 @@ class CustomSlider extends HTMLElement {
     if (this.currentSlideIndex > 0) {
       this.currentSlideIndex -= 1;
       this.scrollToCurrentSlide();
-      this.updateButtonState(); // Move button state update inside scroll logic
+      this.updateButtonState();
     }
   };
 
@@ -35,32 +35,38 @@ class CustomSlider extends HTMLElement {
     if (this.currentSlideIndex < this.slides.length - 1) {
       this.currentSlideIndex += 1;
       this.scrollToCurrentSlide();
-      this.updateButtonState(); // Move button state update inside scroll logic
+      this.updateButtonState();
     }
   };
 
   scrollToCurrentSlide = () => {
     const targetSlide = this.slides[this.currentSlideIndex];
-    const targetScrollPosition = targetSlide.offsetLeft; // Use the exact offsetLeft of the slide
+    const targetScrollPosition = targetSlide.offsetLeft;
     this.slideList.scrollTo({left: targetScrollPosition, behavior: 'smooth'});
   };
 
   updateButtonState = () => {
-    // Disable the left button if we're on the first slide
-    if (this.currentSlideIndex === 0) {
-      this.leftButton.classList.add('disabled');
-    } else {
-      this.leftButton.classList.remove('disabled');
-    }
+    // Disable/Enable navigation buttons
+    this.leftButton.classList.toggle('disabled', this.currentSlideIndex === 0);
+    this.rightButton.classList.toggle('disabled', this.currentSlideIndex === this.slides.length - 1);
 
-    // Disable the right button if we're on the last slide
-    if (this.currentSlideIndex === this.slides.length - 1) {
-      this.rightButton.classList.add('disabled');
-    } else {
-      this.rightButton.classList.remove('disabled');
-    }
+    // Update tabindex for each slide's direct child button (not the one inside the dialog)
+    this.slides.forEach((slide, index) => {
+      const button = slide.querySelector(':scope > button'); // Select only the direct child button
+      if (button) {
+        if (index === this.currentSlideIndex) {
+          button.setAttribute('tabindex', '0');
+          console.log(`Tabindex set to 0 for button on slide index: ${index}`);
+        } else {
+          button.setAttribute('tabindex', '-1');
+          console.log(`Tabindex set to -1 for button on slide index: ${index}`);
+        }
 
-    console.log(`Current Slide Index: ${this.currentSlideIndex}`);
+        console.log(
+          `Current tabindex for button on slide index ${index}: ${button.getAttribute('tabindex')}`
+        );
+      }
+    });
   };
 }
 

@@ -1,0 +1,37 @@
+<is-land on:visible class="full">
+  <div class=" section flow-space-xl" style="--spot-color: var(--color-bg-accent)">
+    <div class="section__inner wrapper region">
+      <custom-slider>
+        <ul class="slides ">
+          {%- for item in gallery -%}
+            <li class="slide gallery" id="picture-{{ loop.index }}">
+              <dialog class="flow modal{{ loop.index }}">
+                {%- image item.image, item.alt, item.caption -%}
+                <form method="dialog">
+                  <button class="button" autofocus>{{ meta.dialog.close }}</button>
+                </form>
+              </dialog>
+              <button data-index="{{ loop.index }}">{%- image item.image, item.alt -%}</button>
+            </li>
+          {%- endfor -%}
+        </ul>
+        <button class="slider__button left" type="button">
+          {% svg "misc/chevron-left" %}
+          <span class="visually-hidden">scroll left</span>
+        </button>
+        <button class="slider__button right" type="button">
+          {% svg "misc/chevron-right" %}
+          <span class="visually-hidden">scroll right</span>
+        </button>
+      </custom-slider>
+    </div>
+  </div>
+
+  {% css "inline" %}
+    {% include "css/gallery.css" %}
+  {% endcss %}
+
+  {% js "defer" %}
+    {% include "scripts/gallery.js" %}
+  {% endjs %}
+</is-land>

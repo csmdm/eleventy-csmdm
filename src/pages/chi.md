@@ -29,4 +29,4 @@ Dal 1987 ha svolto attività di introduzione alla subacquea con autorespiratori 
 
 Il CSM ha proposto e seguito la posa della statua del Cristo degli Abissi nella Baia di San Fruttoso, provvedendo alla sua manutenzione ordinaria e alla preparazione della manifestazione annuale.
 
-{% include "partials/slider.njk" %}
+{% include "partials/slider-gallery.njk" %}
