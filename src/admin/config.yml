@@ -94,7 +94,7 @@ collections:
   - name: 'pages' # Collection for pages
     label: 'Pages'
     folder: 'src/pages'
-    create: true # Allows creation of new pages
+    create: false
     slug: '{{slug}}'
     fields:
       - {label: 'Body', name: 'body', widget: 'markdown'}
