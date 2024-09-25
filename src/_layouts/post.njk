@@ -25,7 +25,8 @@ schema: blog
         {% endif %}{% endfor %}
       {% endif %}
     </p>
-    <div>{{ content | safe }}</div>
+
+    {{ content | safe }}
 
     {% if videosGoogleDrive or videosYouTube %}
       <h2>Video</h2>
