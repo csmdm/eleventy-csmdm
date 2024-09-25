@@ -28,3 +28,4 @@ tags:
   - Attività per Disabilità
 ---
 
+{% include "partials/gallery.njk" %}
