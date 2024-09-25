@@ -57,6 +57,9 @@ export const details = {
   expand: 'expand all',
   collapse: 'collapse all'
 };
+export const dialog = {
+  close: 'chiudere'
+};
 export const navigation = {
   navLabel: 'Menu',
   ariaTop: 'Principale',
