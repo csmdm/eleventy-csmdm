@@ -84,3 +84,21 @@ collections:
           - Attività per Disabilità
           - Formazione
           - Eventi
+
+- name: 'pages' # Collection for pages
+    label: 'Pages'
+    folder: 'src/pages'
+    create: true # Allows creation of new pages
+    slug: '{{slug}}'
+    fields:
+      - {label: 'Title', name: 'title', widget: 'string'}
+      - {label: 'Description', name: 'description', widget: 'text'}
+
+      # Discover section for SEO purposes
+      - label: 'Discover'
+        name: 'discover'
+        widget: 'object'
+        hint: 'Optional: different title and description for search engines and social media previews.'
+        fields:
+          - {label: 'Title', name: 'title', widget: 'string', hint: 'Title used for SEO and social media preview.'}
+          - {label: 'Description', name: 'description', widget: 'text', hint: 'Description used for SEO and social media preview.'}
