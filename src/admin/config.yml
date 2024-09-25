@@ -19,7 +19,6 @@ collections:
       - label: 'Discover'
         name: 'discover'
         widget: 'object'
-        collapsed: true
         hint: 'Optional: different title and description for search engines and social media previews.'
         fields:
           - {
@@ -35,48 +34,44 @@ collections:
               hint: 'Short description used for SEO and social media preview.'
             }
 
-      - {label: 'Date', name: 'date', widget: 'datetime'}
-      - {label: 'Featured Image', name: 'image', widget: 'image'}
-      - {label: 'Alt Text', name: 'alt', widget: 'string'}
+      - {label: 'Date', name: 'date', widget: 'datetime', editor: false} # Hidden in preview
+      - {label: 'Featured Image', name: 'image', widget: 'image', editor: false} # Hidden in preview
+      - {label: 'Alt Text', name: 'alt', widget: 'string', editor: false} # Hidden in preview
 
-      # Show Featured
       - label: 'Show Featured'
         name: 'showFeatured'
         widget: 'boolean'
         default: true
         hint: 'Whether or not to display the image featured in the post. Defaults to being the preview image in archives.'
+        editor: false # Hidden in preview
 
-      # Gallery field with unlimited items
       - label: 'Gallery'
         name: 'gallery'
         widget: 'list'
         collapsed: true
         hint: 'Add images for the gallery. Each image should have an alt text.'
         fields:
-          - {label: 'Image', name: 'image', widget: 'image'}
-          - {label: 'Alt Text', name: 'alt', widget: 'string'}
+          - {label: 'Image', name: 'image', widget: 'image', editor: false} # Hidden in preview
+          - {label: 'Alt Text', name: 'alt', widget: 'string', editor: false} # Hidden in preview
 
-      # Google Drive videos field with unlimited items
       - label: 'Google Drive Videos'
         name: 'videosGoogleDrive'
         widget: 'list'
         collapsed: true
         hint: 'Add Google Drive videos using their unique slug and label.'
         fields:
-          - {label: 'Slug', name: 'slug', widget: 'string'}
-          - {label: 'Label', name: 'label', widget: 'string'}
+          - {label: 'Slug', name: 'slug', widget: 'string', editor: false} # Hidden in preview
+          - {label: 'Label', name: 'label', widget: 'string', editor: false} # Hidden in preview
 
-      # YouTube videos field with unlimited items
       - label: 'YouTube Videos'
         name: 'videosYouTube'
         widget: 'list'
         collapsed: true
         hint: 'Add YouTube videos using their slug (ID) and label.'
         fields:
-          - {label: 'Slug', name: 'slug', widget: 'string'}
-          - {label: 'Label', name: 'label', widget: 'string'}
+          - {label: 'Slug', name: 'slug', widget: 'string', editor: false} # Hidden in preview
+          - {label: 'Label', name: 'label', widget: 'string', editor: false} # Hidden in preview
 
-      # Tags field with limited set of options
       - label: 'Tags'
         name: 'tags'
         widget: 'select'
@@ -88,6 +83,7 @@ collections:
           - Attività per Disabilità
           - Formazione
           - Eventi
+        editor: false
 
   - name: 'pages' # Collection for pages
     label: 'Pages'
