@@ -153,7 +153,9 @@ assumes that the button doesn’t exist without JS, making the list the first ch
 }
 
 @media (scripting: enabled) {
-  .mainnav ul {
-    display: none;
+  @media screen(ltnavigation) {
+    .mainnav ul {
+      display: none;
+    }
   }
 }
