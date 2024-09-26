@@ -1,5 +1,10 @@
 <is-land on:idle>
-  <div class="gallery | grid mt-l-xl" img-square role="list">
+  <div
+    class="gallery | grid mt-l-xl gutter-s-m"
+    img-square
+    role="list"
+    style="--grid-min-item-size: min(40%, 12rem)"
+  >
     {%- for item in gallery -%}
       <dialog class="flow modal{{ loop.index }}">
         <form method="dialog">
