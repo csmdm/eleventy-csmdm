@@ -151,11 +151,3 @@ assumes that the button doesn’t exist without JS, making the list the first ch
 .mainnav:has(ul:first-child) {
   --nav-position: relative;
 }
-
-@media (scripting: enabled) {
-  @media screen(ltnavigation) {
-    .mainnav ul {
-      display: none;
-    }
-  }
-}

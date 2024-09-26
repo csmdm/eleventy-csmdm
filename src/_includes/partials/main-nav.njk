@@ -44,9 +44,13 @@
       </svg>
     </button>
   </template>
-{% endif %}
 
-{% if drawerNav %}
+  <!-- avoid CLS -->
+  {% css "inline" %}
+    {% include "css/nav-main-drawer-cls.css" %}
+  {% endcss %}
+
+  <!-- add burger-template to DOM -->
   {% js "defer" %}
     {% include "scripts/nav-drawer.js" %}
   {% endjs %}
