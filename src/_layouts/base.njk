@@ -20,7 +20,8 @@
 
     <base href="{{ page.url }}" />
 
-    <!-- 3 synchronous js  -->
+    <!-- 3 async, synchronous js /   -->
+    {% include "head/js-async.njk" %}
     {% include "head/js-inline.njk" %}
 
     <!-- 4 schema settings -->
@@ -33,8 +34,7 @@
     <!-- 6 preloads  -->
     {% include "head/preloads.njk" %}
 
-    <!-- 7 async and defer  -->
-    {% include "head/js-async.njk" %}
+    <!-- 7 defer  -->
     {% include "head/js-defer.njk" %}
 
     <!-- 8 meta tags, icons, open graph etc.  -->

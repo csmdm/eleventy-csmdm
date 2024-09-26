@@ -47,7 +47,7 @@
 {% endif %}
 
 {% if drawerNav %}
-  {%- js "async" %}
+  {% js "defer" %}
     {% include "scripts/nav-drawer.js" %}
   {% endjs %}
 {% endif %}
