@@ -46,11 +46,9 @@ class CustomSlider extends HTMLElement {
   };
 
   updateButtonState = () => {
-    // Disable/Enable navigation buttons
     this.leftButton.classList.toggle('disabled', this.currentSlideIndex === 0);
     this.rightButton.classList.toggle('disabled', this.currentSlideIndex === this.slides.length - 1);
 
-    // Update tabindex for each slide's direct child button (not the one inside the dialog)
     this.slides.forEach((slide, index) => {
       const button = slide.querySelector(':scope > button'); // Select only the direct child button
       if (button) {
