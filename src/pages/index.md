@@ -5,8 +5,8 @@ title: 'CSM Duilio Marcante'
 description: 'Centro Subacqueo Mediterraneo "Duilio Marcante"'
 showBlog: true
 showLogos: true
-sizes: '(max-width: 615px) 50vw, 100vw'
-widths: [400, 520]
+sizes: '(max-width: 690px) 50vw, 100vw'
+widths: [270]
 blog:
   title: 'Blog'
   intro: ""
