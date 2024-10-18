@@ -14,12 +14,6 @@
   font-weight: var(--font-bold);
 }
 
-.card .post-tag {
-  --button-bg: var(--color-bg-accent-2);
-  --button-text: var(--color-text);
-  --button-border: var(--color-bg-accent-2);
-}
-
 /* layout */
 
 .tags h1 {

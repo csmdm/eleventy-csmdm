@@ -5,6 +5,5 @@
     <template data-island="once" webc:raw>
       <script src="/assets/scripts/components/custom-slider.js" type="module"></script>
     </template>
-    <link rel="stylesheet" href="/assets/css/components/custom-slider.css" />
   </custom-slider>
 </is-land>
