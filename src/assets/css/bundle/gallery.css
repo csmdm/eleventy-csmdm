@@ -33,6 +33,7 @@ is-land:not(:defined) .gallery dialog + button {
 
 .gallery dialog img {
   max-block-size: 70vh;
+  inline-size: auto;
 }
 
 .gallery img:not(dialog img) {
