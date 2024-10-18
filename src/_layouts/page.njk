@@ -26,6 +26,11 @@ layout: base
 						{% image "./src/assets/images/logos/" + logo.filename + ".png", logo.name, null, "lazy", null, sizes, widths %}
 						<p slot="content">{{ logo.description }}</p>
 					</custom-card>
+
+					{% css "inline" %}
+  					{% include "css/custom-card.css" %}
+					{% endcss %}
+
 				{% endfor %}
 			</div>
 			{% endif %}
