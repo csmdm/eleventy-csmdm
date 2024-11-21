@@ -10,7 +10,7 @@
   font-size: var(--size-step-2);
 }
 
-.post .prose img {
+.post img:not(dialog img) {
   max-inline-size: var(--max-img-width, 100%);
   block-size: auto;
   aspect-ratio: 16/9;

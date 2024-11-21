@@ -125,26 +125,17 @@ summary,
   scroll-margin-block-end: 8vh;
 }
 
-dialog {
+/* dialog {
   border: none;
   background: none;
   inset: unset;
   max-width: unset;
   max-height: unset;
-}
+} */
 
-[popover] {
-  border: none;
-  background: none;
-  inset: unset;
-  color: inherit;
-}
-
-/*  hide dialog elements without open or popover attributes, and elements with a popover attribute that are not in an open state. */
-dialog:not([open], [popover]),
-[popover]:not(:popover-open) {
+/* dialog:not([open]) {
   display: none !important;
-}
+} */
 
 /* Prevent page scroll: https://blog.mayank.co/is-dialog-enough */
 html:has(dialog[open]:modal) {

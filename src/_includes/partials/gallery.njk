@@ -7,7 +7,7 @@
   >
     {%- for item in gallery -%}
       <dialog class="flow modal{{ loop.index }}">
-        <form method="dialog">
+        <form class="mb-s" method="dialog">
           <button class="button" autofocus>{{ meta.dialog.close }}</button>
         </form>
         {%- image item.image, item.alt, item.caption -%}

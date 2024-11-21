@@ -29,7 +29,7 @@ Adjust fallbacks if modern color syntax not supported for text and bg variants. 
   --color-tertiary: var(--color-tertiary-highlight);
   /* Fallbacks if modern color syntax not supported */
   --color-text-accent: #505050;
-  --color-bg-accent: #c6c6c6;
+  --color-bg-accent: #ebe9e9;
   --color-bg-accent-2: #bababa;
 
   --gradient-water: linear-gradient(90deg, #297683, #102430);

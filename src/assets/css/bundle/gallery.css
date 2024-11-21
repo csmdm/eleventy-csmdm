@@ -1,9 +1,14 @@
-.gallery dialog {
+/* .gallery dialog {
   border-radius: var(--border-radius);
   inset: revert;
   display: flex;
   flex-direction: column;
   align-items: end;
+} */
+
+.gallery dialog {
+  background: transparent;
+  border: none;
 }
 
 .gallery dialog + button {
@@ -32,6 +37,7 @@ is-land:not(:defined) .gallery dialog + button {
 }
 
 .gallery dialog img {
+  aspect-ratio: auto;
   max-block-size: 70vh;
   inline-size: auto;
 }
@@ -42,4 +48,8 @@ is-land:not(:defined) .gallery dialog + button {
 
 .gallery[img-square] img:not(dialog img) {
   aspect-ratio: 1;
+}
+
+.gallery dialog figcaption {
+  color: var(--color-light);
 }
