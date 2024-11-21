@@ -21,27 +21,10 @@
   --button-border: var(--color-text);
 }
 
+.button:focus {
+  outline-color: var(--button-outline, var(--color-text));
+}
+
 .button:active {
   transform: scale(99%);
-}
-
-.button:where(:has(svg)) {
-  display: flex;
-  gap: 0.5em;
-  align-items: center;
-}
-
-.button:where(:has(.visually-hidden)) {
-  border-radius: 50%;
-  padding: 0.5em;
-}
-
-/* all buttons have a min size */
-.button:where(:not(:has(svg))) {
-  text-align: center;
-  min-inline-size: 6ch;
-}
-
-.button:where(:not(:has(.visually-hidden))) {
-  padding: var(--button-padding, 0.35em 1em);
 }

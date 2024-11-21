@@ -89,7 +89,8 @@
   text-underline-offset: 0.2em;
 }
 
-.mainnav a:where(:hover, :focus) {
+.mainnav a:hover,
+.mainnav a:focus {
   --nav-item-background: transparent;
   --nav-item-text-color: var(--color-text);
   --nav-item-decoration-color: var(--color-text);

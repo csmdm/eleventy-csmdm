@@ -5,7 +5,10 @@
   --wrapper-width: 60ch;
 }
 
-.prose :where(pre, pre + *, figure, figure + *) {
+.prose pre,
+.prose pre + *,
+.prose figure,
+.prose figure + * {
   --flow-space: var(--space-m-l);
 }
 
@@ -17,15 +20,20 @@
   border-bottom: 1px solid var(--color-bg-accent);
 }
 
-:where(.prose :is(h2, h3, h4)) {
+.prose h2,
+.prose h3,
+.prose h4 {
   --flow-space: var(--space-xl);
 }
 
-:where(.prose :is(h2 + *, h3 + *, h4 + *):not(figure)) {
+.prose h2 + *,
+.prose h3 + *,
+.prose h4 + *:not(figure) {
   --flow-space: var(--space-m);
 }
 
-.prose .heading-anchor:is(:hover, :focus) {
+.prose .heading-anchor:hover,
+.prose .heading-anchor:focus {
   text-decoration: none;
 }
 
@@ -44,12 +52,13 @@
 }
 
 /* inline space only for "regular lists" */
-.prose :where(ul:not(.grid), ol:not(.grid)) {
+.prose ul:not(.grid),
+.prose ol:not(.grid) {
   padding-inline-start: 1.2ch;
 }
 
 /* marker only for "regular lists" */
-.prose :where(ul:not(.grid):not([role='list'])) li::marker {
+.prose ul:not(.grid):not([role='list']) li::marker {
   color: var(--color-primary);
   content: '– ';
 }
