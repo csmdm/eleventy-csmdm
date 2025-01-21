@@ -19,7 +19,7 @@ tags:
   - Altre attività
 image: /assets/images/uploads/photo_2025-01-21_19-24-02.jpg
 alt: subacqueo che emerge dall'acqua con attrezzatura da fotografia sub
-showFeatured: true
+showFeatured: false
 ---
 Tra le varie attività, abbiamo appena lanciato un ciclo di incontri a tema: «Parliamo di fotografia».
 
@@ -28,3 +28,5 @@ Tra le varie attività, abbiamo appena lanciato un ciclo di incontri a tema: «P
 **Incontro e discussione sulla fotografia subacquea con Alessandro Grasso**.
 
 Ad entrata libera, presso "La Chiatta": Passeggiata Calata Rotonda Marina, Porto Antico, Genova.
+
+![subacqueo che emerge dall'acqua con attrezzatura da fotografia sub](/assets/images/uploads/photo_2025-01-21_19-24-02.jpg "01 febbraio 2025 - ore 16:30 | Incontro e discussione sulla fotografia subacquea con Alessandro Grasso.")
