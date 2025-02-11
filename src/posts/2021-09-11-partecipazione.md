@@ -37,5 +37,6 @@ videosYouTube:
   - slug: WZMoqEfKA8k
     label: "SportAbility Day: che passione per subacquea e snorkeling"
 ---
+SportAbility Day: che passione per subacquea e snorkeling
 
 {% include "partials/gallery.njk" %}
