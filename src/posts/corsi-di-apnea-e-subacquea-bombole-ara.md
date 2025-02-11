@@ -56,6 +56,6 @@ Le nostre attività subacquee rilasciano crediti formativi validi per eventuali 
 
 ## Info e Iscrizioni
 
-Per maggiori informazioni e iscrizioni, puoi contattare la direzione didattica: +39 335 206 827
+Per maggiori informazioni e iscrizioni, puoi contattare la direzione didattica: [+39 335 206 827](tel:0039335206827)
 
 Non perdere l'opportunità di vivere un'esperienza indimenticabile con il Centro Subacqueo Mediterraneo "Duilio Marcante"!
