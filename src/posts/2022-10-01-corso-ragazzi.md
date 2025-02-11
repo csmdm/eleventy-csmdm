@@ -39,8 +39,7 @@ videosGoogleDrive:
   - slug: 11louyzVM1USc9AMB_H181OZf4LF7DInN
     label: Snorkeling 2022 Recco
 ---
-
-Text missing
+Special Snorkeling for All, edizione 2022
 
 {% include "partials/gallery.njk" %}
 
