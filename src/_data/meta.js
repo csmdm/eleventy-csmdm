@@ -1,5 +1,5 @@
 export const url = process.env.URL || 'http://localhost:8080';
-export const siteName = 'CSM Duilio Marcante';
+export const siteName = 'Centro Subacqueo Mediterraneo “Duilio Marcante”';
 export const siteDescription =
   'Il Centro Subacqueo Mediterraneo “Duilio Marcante” (CSM) è un punto di riferimento nella subacquea dal 1952.';
 export const siteType = 'Person'; // schema
@@ -7,9 +7,9 @@ export const locale = 'it_IT';
 export const lang = 'it';
 export const skipContent = 'Salta al contenuto';
 export const author = {
-  name: 'Adriano Urso', // i.e. Lene Saile - page / blog author's name. Must be set.
+  name: 'Centro Subacqueo Mediterraneo “Duilio Marcante”', // i.e. Lene Saile - page / blog author's name. Must be set.
   avatar: '/icon-512x512.png', // path to the author's avatar. In this case just using a favicon.
-  email: 'ajaneu@gmail.com', // i.e. hola@lenesaile.com - email of the author
+  email: 'csm.duiliomarcante@gmail.com', // i.e. hola@lenesaile.com - email of the author
   website: '' // i.e. https.://www.lenesaile.com - the personal site of the author
 };
 export const creator = {
@@ -25,7 +25,7 @@ export const opengraph_default = '/assets/og-images/pages-preview.jpeg'; // fall
 export const opengraph_default_alt = 'CSM Duilio Marcante'; // alt text for default meta image"
 export const blog = {
   // RSS feed
-  name: 'Blog del CSM Duilio Marcante',
+  name: 'Le ultime attività del Centro Subacqueo Mediterraneo “Duilio Marcante”',
   description: '',
   // feed links are looped over in the head. You may add more to the array.
   feedLinks: [
