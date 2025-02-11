@@ -1,14 +1,14 @@
 ---
 layout: page
 permalink: /index.html
-title: 'CSM Duilio Marcante'
+title: 'Centro Subacqueo Mediterraneo "Duilio Marcante"'
 description: 'Centro Subacqueo Mediterraneo "Duilio Marcante"'
 showBlog: true
 showLogos: true
 sizes: '(max-width: 690px) 50vw, 100vw'
 widths: [270]
 blog:
-  title: 'Blog'
+  title: 'Home'
   intro: ""
 image: "./src/assets/images/hero/chi.png"
 ---

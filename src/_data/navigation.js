@@ -17,7 +17,7 @@ export default {
       url: '/altre-attivita/'
     },
     {
-      text: 'Blog',
+      text: 'News',
       url: '/blog/'
     },
     {
