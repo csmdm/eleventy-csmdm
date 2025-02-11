@@ -1,25 +1,25 @@
 [
   {
     "name": "CSM Duilio Marcante",
-    "description": "Centro Subacqueo Mediterraneo 'Duilio Marcante' Camogli (GE)",
+    "description": "Centro Subacqueo Mediterraneo 'Duilio Marcante' - Camogli (GE)",
     "filename": "csm-duilio-marcante",
     "link": ""
   },
   {
     "name": "CMAS",
-    "description": "",
+    "description": "Confédération Mondiale des Activités Subaquatiques",
     "filename": "cmas",
     "link": ""
   },
   {
-    "name": "Federazioni sportive nazionale riconosciute dal CONI",
-    "description": "",
+    "name": "Federazioni sportive nazionali riconosciute dal CONI",
+    "description": "Federazione Sportiva Nazionale riconosciuta dal CONI",
     "filename": "federazione-dal-coni",
     "link": ""
   },
   {
     "name": "Federazione Italiana Pesca Sportiva",
-    "description": "",
+    "description": "Federazione Italiana Pesca Sportiva e Attività Subacquee",
     "filename": "federazione-italiana-pesca-sportiva",
     "link": ""
   }

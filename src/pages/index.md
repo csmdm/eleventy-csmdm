@@ -1,6 +1,6 @@
 ---
 blog:
-  title: Home
+  title: "Le ultime attività del Centro: "
   intro: ""
 discover:
   description: >+
