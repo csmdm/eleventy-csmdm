@@ -1,5 +1,5 @@
 export const url = process.env.URL || 'http://localhost:8080';
-export const siteName = 'Centro Subacqueo Mediterraneo “Duilio Marcante”';
+export const siteName = 'CSM “Duilio Marcante”';
 export const siteDescription =
   'Il Centro Subacqueo Mediterraneo “Duilio Marcante” (CSM) è un punto di riferimento nella subacquea dal 1952.';
 export const siteType = 'Person'; // schema
