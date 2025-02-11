@@ -1,17 +1,26 @@
 ---
+blog:
+  title: Home
+  intro: ""
+discover:
+  description: >+
+    Il Centro Subacqueo Mediterraneo "Duilio Marcante" è un punto di riferimento
+    nella subacquea dal 1952. Offriamo corsi di immersione sportiva, biologia
+    marina, archeologia subacquea e programmi inclusivi per persone con
+    disabilità. Ci occupiamo anche della manutenzione della famosa statua del
+    Cristo degli Abissi nella Baia di San Fruttuoso.
+
+
+  title: Centro Subacqueo Mediterraneo "Duilio Marcante"
 layout: page
 permalink: /index.html
-title: 'Centro Subacqueo Mediterraneo "Duilio Marcante"'
-description: 'Centro Subacqueo Mediterraneo "Duilio Marcante"'
-showBlog: true
 showLogos: true
-sizes: '(max-width: 690px) 50vw, 100vw'
-widths: [270]
-blog:
-  title: 'Home'
-  intro: ""
-image: "./src/assets/images/hero/chi.png"
+widths:
+  - 270
+sizes: "(max-width: 690px) 50vw, 100vw"
+title: Centro Subacqueo Mediterraneo "Duilio Marcante"
+image: ./src/assets/images/hero/chi.png
+description: Centro Subacqueo Mediterraneo "Duilio Marcante"
+showBlog: true
 ---
-
-
-Il Centro Subacqueo Mediterraneo "Duilio Marcante" (CSM) è un punto di riferimento nella subacquea dal 1952. Offriamo corsi di immersione sportiva, biologia marina, archeologia subacquea e programmi inclusivi per persone con disabilità. Ci occupiamo anche della manutenzione della famosa statua del Cristo degli Abissi nella Baia di San Fruttuoso.
+Il Centro Subacqueo Mediterraneo (CSM) "Duilio Marcante" è un punto di riferimento nella subacquea dal 1952. Offriamo corsi di immersione sportiva, biologia marina, archeologia subacquea e programmi inclusivi per persone con disabilità. Ci occupiamo anche della manutenzione della famosa statua del Cristo degli Abissi nella Baia di San Fruttuoso.
