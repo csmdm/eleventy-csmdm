@@ -1,23 +1,15 @@
 ---
 title: Intervento in TV alla trasmissione PEOPLE di Primo Canale - presentazione
   Sportability
-description: >-
-  Presentazione dello Sportability Day e delle attività per disabilità
-  intellettivo-relazionali, invitati in TV alla trasmissione PEOPLE di Primo
-  Canale. 
-
-
-  Speriamo di diffondere la conoscenza di questa meravigliosa pratica!
+description: "Presentazione dello Sportability Day e delle attività per
+  disabilità intellettivo-relazionali, invitati in TV alla trasmissione PEOPLE
+  di Primo Canale. "
 discover:
   title: Intervento in TV alla trasmissione PEOPLE di Primo Canale - presentazione
     Sportability
-  description: >-
-    Presentazione dello Sportability Day e delle attività per disabilità
-    intellettivo-relazionali, invitati in TV alla trasmissione PEOPLE di Primo
-    Canale. 
-
-
-    Speriamo di diffondere la conoscenza di questa meravigliosa pratica!
+  description: "Presentazione dello Sportability Day e delle attività per
+    disabilità intellettivo-relazionali, invitati in TV alla trasmissione PEOPLE
+    di Primo Canale. "
 date: 2024-03-12
 tags:
   - Attività per Disabilità
