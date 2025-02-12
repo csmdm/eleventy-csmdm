@@ -44,6 +44,13 @@ is-land:not(:defined) .gallery dialog + button {
 
 .gallery img:not(dialog img) {
   --flow-space: 0;
+  /* inherited from .post img:not(dialog img) */
+  max-inline-size: var(--max-img-width, 100%);
+  block-size: auto;
+  /* enable also portrait mode */
+   /* aspect-ratio: 16/9; */
+  object-fit: cover;
+  object-position: center;
 }
 
 .gallery[img-square] img:not(dialog img) {
