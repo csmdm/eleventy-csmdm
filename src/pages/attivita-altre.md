@@ -24,7 +24,7 @@ showBlog: true
 ---
 Tra le varie attività, abbiamo appena lanciato un ciclo di incontri a tema: «Parliamo di fotografia».
 
-08 febbraio 2025 - ore 16:30
+08 marzo 2025 - ore 16:30
 
 **Incontro e discussione sulla fotografia subacquea con Marcello Di Francesco**.
 
