@@ -23,15 +23,11 @@ alt: locandina dell'incontro con Marceddlo Di Francesco, subacqueo, ripreso in
   pinne nell'altra, sullo sfondo delle palme
 showFeatured: false
 ---
-# GENOVA OSPITA UNA CONFERENZA DEDICATA ALLA FOTOGRAFIA SUBACQUEA
+Genova, 8 marzo 2025 – Il Centro Subacqueo Mediterraneo "Duilio Marcante" (CSM), punto di riferimento per la subacquea dal 1952, celebra il ritorno della sua sede nel cuore della città, presso la "Chiatta" sulla passeggiata Cala Rotonda al Porto Antico, tra l'Acquario e il Galeone, con un ciclo di incontri dedicati alla fotografia e videoripresa subacquea.
 
-Genova, 8 marzo 2025 – Il Centro Subacqueo Mediterraneo "Duilio Marcante" (CSM), punto di
-riferimento per la subacquea dal 1952, celebra il ritorno della sua sede nel cuore della città, presso la "Chiatta" sulla passeggiata Cala Rotonda al Porto Antico, tra l'Acquario e il Galeone, con un ciclo di incontri dedicati alla fotografia e videoripresa subacquea.
+## Un centro storico della subacquea italiana
 
-## Un centro storico della subacquea italiana 
-
-Dedicato a Duilio Marcante, padre della moderna didattica subacquea sportiva, il CSM ha avuto un ruolo fondamentale nello sviluppo della subacquea in Italia. Fino al 1985, è stato l’unico Centro Nazionale Federale di Formazione Istruttori Sub, introducendo per primo corsi di specialità come Biologia Marina e Archeologia Subacquea. Dal 1987, il Centro ha sviluppato un forte impegno nell’inclusività, offrendo attività subacquee con autorespiratori per persone con disabilità fisica e,
-dal 2019, introducendo un progetto di snorkeling per persone con disabilità intellettiva relazionale.
+Dedicato a Duilio Marcante, padre della moderna didattica subacquea sportiva, il CSM ha avuto un ruolo fondamentale nello sviluppo della subacquea in Italia. Fino al 1985, è stato l’unico Centro Nazionale Federale di Formazione Istruttori Sub, introducendo per primo corsi di specialità come Biologia Marina e Archeologia Subacquea. Dal 1987, il Centro ha sviluppato un forte impegno nell’inclusività, offrendo attività subacquee con autorespiratori per persone con disabilità fisica e, dal 2019, introducendo un progetto di snorkeling per persone con disabilità intellettiva relazionale.
 
 Il CSM è inoltre noto per aver promosso e curato la posa della statua del Cristo degli Abissi nella Baia di San Fruttuoso, simbolo internazionale della comunità subacquea, occupandosi della sua manutenzione e dell’organizzazione dell’annuale manifestazione commemorativa.
 
@@ -43,14 +39,14 @@ Nato a La Spezia nel 1975, istruttore subacqueo e fotografo freelance specializz
 
 Dal 2008 si dedica con passione alla fotografia subacquea, utilizzando attrezzature professionali Canon e immergendosi tra Liguria e Toscana, nel Golfo dei Poeti, nel Parco Marino di Portofino e tra i numerosi relitti al largo di Savona, Genova e Sestri Levante.
 
-Negli ultimi anni ha ottenuto riconoscimenti nei principali concorsi fotografici nazionali e internazionali, tra cui il Sony Awards, l’Underwater Photographer of the Year (Londra), il GDT – European Wildlife Photographer of the Year e l’Oasis Photo Contest International Award Wildlife.
-Giudice federale FIPSAS per le gare di fotografia subacquea digitale, è spesso membro di giurie nazionali e internazionali e collabora con riviste del settore come **Mondo Sommerso, Il Subacqueo, Scuba Magazine, Asian Diver** e molte altre. Organizza viaggi e spedizioni fotografiche con tour operator specializzati nel settore subacqueo.
+Negli ultimi anni ha ottenuto riconoscimenti nei principali concorsi fotografici nazionali e internazionali, tra cui il Sony Awards, l’Underwater Photographer of the Year (Londra), il GDT – European Wildlife Photographer of the Year e l’Oasis Photo Contest International Award Wildlife.  Giudice federale FIPSAS per le gare di fotografia subacquea digitale, è spesso membro di giurie nazionali e internazionali e collabora con riviste del settore come **Mondo Sommerso, Il Subacqueo, Scuba Magazine, Asian Diver** e molte altre. Organizza viaggi e spedizioni fotografiche con tour operator specializzati nel settore subacqueo.
 
-## Un punto di riferimento per gli appassionati del mare. 
+## Un punto di riferimento per gli appassionati del mare.
 
 Con il ritorno della sede a Genova, il CSM intende rafforzare il proprio ruolo di centro culturale e formativo per gli appassionati di subacquea, promuovendo la conoscenza e la tutela del mare attraverso incontri, attività ed eventi dedicati.
 
 ## Informazioni pratiche:
+
 • **Dove**: Centro Subacqueo Mediterraneo "Duilio Marcante", Passeggiata Cala Rotonda, Porto
 Antico di Genova
 • **Quando**: Sabato 8 marzo 2025, ore 16:00
