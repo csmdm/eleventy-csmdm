@@ -1,5 +1,5 @@
 ---
-title: "Ciclo di incontri: «Parliamo di Fotografia» - 8 marzo 2025 - ore 16:30 "
+title: "Ciclo di incontri: Parliamo di Fotografia - 8 marzo 2025 - ore 16:30 "
 description: >
   08 marzo 2025 - ore 16:30 | 
 
@@ -56,3 +56,5 @@ Per ulteriori informazioni:
 **Email**: csm.duiliomarcante@gmail.com
 **Cell.**: 3492340982
 Non perdere l'occasione di immergerti nel mondo sommerso con il CSM!
+
+![locandina dell'incontro con Marceddlo Di Francesco, subacqueo, ripreso in piedi fuori dall'acqua con attrezzatura da fotografia subacquea in una mano e pinne nell'altra, sullo sfondo delle palme](/assets/images/uploads/parliamo-di-fotografia-marcello.jpg "08 marzo 2025 - ore 16:30 | Incontro e discussione sulla fotografia subacquea con Marcello Di Francesco. ")
