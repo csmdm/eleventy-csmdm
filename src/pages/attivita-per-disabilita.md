@@ -1,5 +1,5 @@
 ---
-title: Attività per Disabilità
+title: Attività Special
 permalink: /attivita-per-disabilita/index.html
 description: 'Dal 1987 abbiamo svolto attività di introduzione alla subacquea con autorespiratori per persone disabili, generalmente portatori di disabilità fisica, e dal 2019 è iniziato un progetto di Snorkeling per persone con disabilità intellettivo relazionale.'
 showBlog: true
