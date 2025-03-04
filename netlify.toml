@@ -24,3 +24,11 @@ package = "netlify-plugin-cache"
   from = "/blog/ciclo-di-incontri-«parliamo-di-fotografia»-8-marzo-2025-ore-16-30"
   to = "/blog/ciclo-di-incontri-parliamo-di-fotografia-8-marzo-2025-ore-16-30"
   status = 301
+
+
+[[redirects]]
+  from = "/blog/ciclo-di-incontri-%C2%ABparliamo-di-fotografia%C2%BB-8-marzo-2025-ore-1630/"
+  to = "/blog/ciclo-di-incontri-parliamo-di-fotografia-8-marzo-2025-ore-16-30"
+  status = 301
+
+ 
