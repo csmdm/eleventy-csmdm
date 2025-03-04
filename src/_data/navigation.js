@@ -9,7 +9,7 @@ export default {
       url: '/cristo-degli-abissi/'
     },
     {
-      text: 'Attività per Disabilità',
+      text: 'Attività Special',
       url: '/attivita-per-disabilita/'
     },
     {
