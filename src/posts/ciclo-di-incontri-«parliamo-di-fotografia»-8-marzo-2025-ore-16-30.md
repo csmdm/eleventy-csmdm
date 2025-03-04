@@ -1,5 +1,5 @@
 ---
-title: "Ciclo di incontri: «Parliamo di Fotografia» - 8 marzo 2025 - ore 16:30 "
+title: "Ciclo di incontri: Parliamo di Fotografia - 8 marzo 2025 - ore 16:30 "
 description: >
   08 marzo 2025 - ore 16:30 | 
 
