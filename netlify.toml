@@ -18,3 +18,9 @@ package = "netlify-plugin-cache"
 [build]
   command = "npm run build"
   publish = "dist"
+
+
+[[redirects]]
+  from = "/blog/ciclo-di-incontri-«parliamo-di-fotografia»-8-marzo-2025-ore-16-30"
+  to = "/blog/ciclo-di-incontri-parliamo-di-fotografia-8-marzo-2025-ore-16-30"
+  status = 301
