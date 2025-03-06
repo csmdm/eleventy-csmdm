@@ -1,7 +1,7 @@
 ---
 discover:
   title: Corsi Sub e Apnea - FIPSAS, CONI, CMAS e DAN
-  description: "Dal 1987 abbiamo svolto attività di introduzione alla subacquea con autorespiratori per persone disabili, generalmente portatori di disabilità fisica, e dal 2019 è iniziato un progetto di Snorkeling per persone con disabilità intellettivo-relazionale. "
+  description: "Dal 1987 abbiamo svolto attività di formazione subacquea con autorespiratori FIPSAS, CONI, CMAS - Autorespiratori AR, Apnea, Specializzazioni e corsi per Persone con disabilità, Serate divulgative e didattiche, immersioni."
 layout: page
 permalink: /corsi/index.html
 definedTag: Corsi
