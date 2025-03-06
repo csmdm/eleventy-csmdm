@@ -16,7 +16,7 @@ discover:
   title: "Ciclo di incontri: «Parliamo di Fotografia»"
 date: 2025-01-21T18:35:00.000Z
 tags:
-  - Altre attività
+  - Eventi
 image: /assets/images/uploads/photo_2025-01-21_19-24-02.jpg
 alt: subacqueo che emerge dall'acqua con attrezzatura da fotografia sub
 showFeatured: false

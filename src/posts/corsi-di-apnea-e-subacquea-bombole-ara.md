@@ -14,7 +14,7 @@ discover:
     a chi ha più esperienza. "
 date: 2025-02-11T17:47:00.000Z
 tags:
-  - Altre attività
+  - Corsi
 image: /assets/images/uploads/corsi-sub-csmduiliomarcante_2025-02-11_17-48-29.jpg
 alt: sub fotografato in piscina dalla maschera si intravede lo sguardo che
   guarda in camera

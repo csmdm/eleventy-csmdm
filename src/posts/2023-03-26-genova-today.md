@@ -6,7 +6,6 @@ image: "./src/assets/images/uploads/genova-today.jpg"
 alt: "Un'aula piena di partecipanti durante una lezione frontale. Una persona seduta alla cattedra sta spiegando con l'ausilio di una presentazione proiettata su uno schermo, relativa al Centro Iperbarico di San Martino. Sulla proiezione si vedono vari punti elencati, mentre il logo di Genova Today è visibile in basso a destra."
 showFeatured: true
 tags:
-  - Altre attività
   - Stampa
 ---
 

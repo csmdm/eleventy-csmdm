@@ -1,4 +1,7 @@
 # Redirect with a 301 
 /blog/ciclo-di-incontri-«parliamo-di-fotografia»-8-marzo-2025-ore-16-30     /blog/ciclo-di-incontri-parliamo-di-fotografia-8-marzo-2025-ore-16-30   301
 
-/blog/ciclo-di-incontri-%C2%ABparliamo-di-fotografia%C2%BB-8-marzo-2025-ore-1630    /blog/ciclo-di-incontri-parliamo-di-fotografia-8-marzo-2025-ore-16-30   301
+/blog/ciclo-di-incontri-%C2%ABparliamo-di-fotografia%C2%BB-8-marzo-2025-ore-1630        /blog/ciclo-di-incontri-parliamo-di-fotografia-8-marzo-2025-ore-16-30   301
+
+# This will redirect all paths under /blog/altre-attivita/ except the path above
+/altre-attivita/*      /eventi/:splat

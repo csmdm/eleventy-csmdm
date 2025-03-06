@@ -15,7 +15,7 @@ discover:
     Ad entrata libera, presso "La Chiatta": Passeggiata Calata Rotonda Marina, Porto Antico, Genova.
 date: 2025-03-04T18:00:00.000Z
 tags:
-  - Altre attività
+  - Eventi
 image: /assets/images/uploads/parliamo-di-fotografia-marcello.jpg
 alt: locandina dell'incontro con Marceddlo Di Francesco, subacqueo, ripreso in
   piedi fuori dall'acqua con attrezzatura da fotografia subacquea in una mano e

@@ -13,8 +13,12 @@ export default {
       url: '/attivita-per-disabilita/'
     },
     {
-      text: 'Altre Attività',
-      url: '/altre-attivita/'
+      text: 'Corsi',
+      url: '/corsi/'
+    },
+    {
+      text: 'Eventi',
+      url: '/eventi/'
     },
     {
       text: 'News',

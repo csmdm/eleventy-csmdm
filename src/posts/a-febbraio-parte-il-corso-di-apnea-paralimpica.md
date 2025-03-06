@@ -16,6 +16,7 @@ discover:
 date: 2025-01-14T11:10:00.000Z
 tags:
   - Attività per Disabilità
+  - Corsi
 image: /assets/images/uploads/corso-apena-paralimpica-img20240529212304_1024_x_768.jpg
 alt: foto ripresa dall'alto del bordo piscina, si vedono in acqua un ragazzo che
   alza i pollici con maglietta del Centro e cuffietta lilla, un istruttore

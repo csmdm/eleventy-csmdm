@@ -5,7 +5,7 @@ date: 2023-03-25
 image: "./src/assets/images/uploads/subacqueo-01.jpg"
 alt: ""
 tags:
-  - Altre attività
+  - Eventi
 gallery:
   - image: ./src/assets/images/uploads/subacqueo-01.jpg
     alt: ''
