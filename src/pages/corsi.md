@@ -11,7 +11,7 @@ description: "Dal 1987 abbiamo svolto attività di formazione subacquea con auto
 gallery:
   - image: /assets/images/uploads/photo_2025-01-21_19-24-02.jpg
     alt: locandina con titolo ciclo di incontri "Parliamo di Fotografia" la data 01 febbraio 2025 ore 16:30 - sullo sfondo una foto di un subacqueo che emerge dall'acqua con l'attrezzatura per la fotografia subacquea
-image: ./src/assets/images/hero/altre.png
+image: ./src/assets/images/hero/corsi.jpeg
 showBlog: true
 ---
 Dal 1987 abbiamo svolto attività di formazione subacquea con autorespiratori FIPSAS, CONI, CMAS - Autorespiratori AR, Apnea, Specializzazioni e corsi per Persone con disabilità, Serate divulgative e didattiche, immersioni.
