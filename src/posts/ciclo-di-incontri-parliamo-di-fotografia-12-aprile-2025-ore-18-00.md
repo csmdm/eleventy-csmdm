@@ -36,6 +36,8 @@ Il ciclo di incontri gratuiti sulla fotografia e videoripresa subacquea prosegue
 
 **Marco Mori**, nato a Genova nel 1973, è un ingegnere elettronico, esploratore e fotografo subacqueo con una passione profonda per il mare e i suoi misteri. La sua storia inizia nelle acque cristalline dell’Isola d’Elba, dove, da ragazzo, ha scoperto il fascino dell’immersione in apnea. Negli anni ’90 ha intrapreso il percorso nella subacquea con circuito aperto, evolvendosi rapidamente nel mondo della subacquea tecnica, fino a diventare uno dei più esperti utilizzatori di rebreather. Nel corso della sua carriera ha utilizzato diversi sistemi a circuito chiuso, tra cui APD Inspiration, JJ-CCR, Megalodon e KISS Sidewinder, quest’ultimo il suo attuale strumento di esplorazione, ideale per accedere a spazi stretti e complessi all'interno dei relitti.
 
+## Tra ferro e ruggine: la fotografia di un relitto
+
 La sua passione lo ha portato a immergersi **tra i numerosi relitti della "Wreck Valley" del Golfo di Genova e nel Parco Marino di Portofino**, sia come esploratore che come guida e istruttore Sidemount. Ma il vero viaggio è iniziato nel 2010, quando ha scoperto il potere della fotografia subacquea: un mezzo straordinario per catturare e raccontare la bellezza malinconica di ciò che il mare custodisce nei suoi abissi. 
 
 > "Vorrei che le mie foto raccontassero la scoperta e la meraviglia, la suggestione e lo stupore nel vedere, nel rivedere e nello scoprire queste navi riposare sul fondo del mare. Fotografarle così come sono adesso, in un perenne oblio, per tenerne in vita la memoria e il ricordo."
@@ -61,3 +63,5 @@ Per ulteriori informazioni:
 **Email**: csm.duiliomarcante@gmail.com
 **Cell.**: 3492340982
 Non perdere l'occasione di immergerti nel mondo sommerso con il CSM!
+
+![locandina incontro del 12 aprile 2025 ore 18:00 sulla fotografia subacquea, riprende Marco Mori sott'acqua con attrezzatura da fotografo sub e 3 torce, mentre esplora un relitto subacqueo](/assets/images/uploads/csmduiliomarcante-incontra-marco-mori-12-aprile-2025-genova.jpg "Tra ferro e ruggine - la fotografia di un relitto - incontro del 12 aprile 2025 ore 18:00 in Chiatta a Genova - ciclo di incontri Parliamo di fotografia subacquea ")
