@@ -1,27 +1,23 @@
 ---
-title: Note legali e Safeguarding
+title: Note legali
 discover:
-  title: Note legali e Safeguarding
-permalink: /note-legali-safeguarding/index.html
-description: Note legali dell'associazione e Safeguarding Policy
+  title: Note legali
+permalink: /note-legali/index.html
+description: Note legali dell'associazione 
 layout: page
 ---
 
-# Safeguarding Policies
+## {{ csmdm.legal_name }}
 
-## Introduzione:
-La nostra associazione aderisce alle linee guida della FIPSAS per la prevenzione degli abusi e la tutela dei partecipanti alle attività sportive.
 
-## Regolamento Safeguarding:
+### Sede legale: 
+{{ csmdm.legal_address }}
 
-[Scarica il Regolamento Safeguarding](/assets/pdf/CSMDM-FIPSAS-REGOLAMENTO-SAFEGUARDING.pdf)
+### Sede operativa: 
+{{ csmdm.operational_address }}
 
-[Scarica il Modello di Controllo e di Gestione e il Codice di Condotta](/assets/pdf/CSMDM-Modello-di-Controllo-e-Gestione-e-Codice-di-Condotta.pdf)
+### Telefono: 
+{{ csmdm.phone }}
 
-## Informazioni di Contatto:
-Per segnalazioni o informazioni, contattare la Responsaile Safeguarding all'indirizzo [alicebriasco@hotmail.com](mailto:alicebriasco@hotmail.com)
-
-{{ personal.address }}
-
-## Aggiornamenti:
-La presente sezione verrà aggiornata regolarmente in base alle nuove disposizioni della FIPSAS.
+### Email: 
+{{ csmdm.email }}

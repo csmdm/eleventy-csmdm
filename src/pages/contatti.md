@@ -6,8 +6,19 @@ layout: page
 image: "./src/assets/images/hero/pexels-diver-1.jpg"
 ---
 
-{{ personal.address }}
+## {{ csmdm.legal_name }}
 
-e-mail: <a href="mailto:{{ personal.email }}">{{ personal.email }}</a>
-Presidente: gb.boero@fastwebnet.it
-Direttore Didattico: gmagnino@hotmail.com
+### Sede legale: 
+{{ csmdm.legal_address }}
+
+### Sede operativa: 
+{{ csmdm.operational_address }}
+
+### Telefono: 
+{{ csmdm.phone }}
+
+### Email:
+**Segreteria**: [{{ csmdm.email }}](mailto:{{ csmdm.email }})
+
+**Presidente**: gb.boero@fastwebnet.it
+**Direttore Didattico**: gmagnino@hotmail.com

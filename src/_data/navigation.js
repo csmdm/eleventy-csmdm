@@ -31,8 +31,12 @@ export default {
   ],
   bottom: [
     {
-      text: 'Note legali e Safeguarding',
-      url: '/note-legali-safeguarding/'
+      text: 'Note legali',
+      url: '/note-legali/'
+    },
+    {
+      text: 'Safeguarding',
+      url: '/safeguarding/'
     },
     {
       text: 'Informativa sulla privacy',
