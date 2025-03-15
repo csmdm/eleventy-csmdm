@@ -14,9 +14,9 @@ La nostra associazione aderisce alle linee guida della FIPSAS per la prevenzione
 
 ## Regolamento Safeguarding:
 
-[Scarica il Regolamento Safeguarding](/assets/pdf/CSMDM-FIPSAS-REGOLAMENTO-SAFEGUARDING.pdf)
+- 📄 [Scarica il Regolamento Safeguarding](/assets/pdf/CSMDM-FIPSAS-REGOLAMENTO-SAFEGUARDING.pdf)
 
-[Scarica il Modello di Controllo e di Gestione e il Codice di Condotta](/assets/pdf/CSMDM-Modello-di-Controllo-e-Gestione-e-Codice-di-Condotta.pdf)
+- 📄 [Scarica il Modello di Controllo e di Gestione e il Codice di Condotta](/assets/pdf/CSMDM-Modello-di-Controllo-e-Gestione-e-Codice-di-Condotta.pdf)
 
 ## Informazioni di Contatto:
 Per segnalazioni o informazioni, contattare la Responsaile Safeguarding all'indirizzo [alicebriasco@hotmail.com](mailto:alicebriasco@hotmail.com)
