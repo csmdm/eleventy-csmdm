@@ -100,6 +100,7 @@ export default async function (eleventyConfig) {
     'src/assets/fonts/',
     'src/assets/images/template',
     'src/assets/og-images',
+    'src/assets/pdf',
     './src/admin/config.yml'
   ].forEach(path => eleventyConfig.addPassthroughCopy(path));
 

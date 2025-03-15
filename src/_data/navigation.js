@@ -31,8 +31,8 @@ export default {
   ],
   bottom: [
     {
-      text: 'Avviso legale',
-      url: '/imprint/'
+      text: 'Note legali e Safeguarding',
+      url: '/note-legali-safeguarding/'
     },
     {
       text: 'Informativa sulla privacy',
