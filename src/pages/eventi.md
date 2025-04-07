@@ -16,8 +16,8 @@ showBlog: true
 ---
 Tra le varie attività, abbiamo appena lanciato un ciclo di incontri a tema: «Parliamo di fotografia».
 
-08 marzo 2025 - ore 16:30
+12 aprile 2025 - ore 18:00
 
-**Incontro e discussione sulla fotografia subacquea con Marcello Di Francesco**.
+**Tra ferro e ruggine: la fotografia di un relitto, con Marco Mori**.
 
 Ad entrata libera, presso "La Chiatta": Passeggiata Calata Rotonda Marina, Porto Antico, Genova.
