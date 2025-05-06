@@ -6,13 +6,13 @@ description: >
 
   Ad entrata libera, presso "La Chiatta": Passeggiata Calata Rotonda Marina, Porto Antico, Genova.
 discover:
-  title: "Ciclo di incontri: «Parliamo di Fotografia» - 12 aprile 2025 - ore 18:00 "
+  title: "Ciclo di incontri: «Parliamo di Fotografia» - 16 maggio 2025 - ore 18:00 "
   description: >
-    12 aprile 2025 - ore 18:00 | 
+    Venerdì 16 maggio 2025 - ore 18:00 | 
 
-    Incontro e discussione sulla fotografia subacquea con Marco Mori. 
+    Incontro e discussione su Safari Fotosub con Alessandro Marcenaro e Giuseppe Pagliuso. 
 
-    Ad entrata libera, presso "La Chiatta": Passeggiata Calata Rotonda Marina, Porto Antico, Genova.
+    Ad entrata libera, presso "La Chiatta": Passeggiata Calata Rotonda Marina, Porto Antico, Genova. 
 date: 2025-05-06T14:10:00.000Z
 tags:
   - Eventi
