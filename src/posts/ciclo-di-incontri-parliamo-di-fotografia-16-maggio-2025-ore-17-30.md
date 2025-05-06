@@ -24,7 +24,7 @@ showFeatured: false
 ---
 Genova, 16 maggio 2025 – Il Centro Subacqueo Mediterraneo "Duilio Marcante" (CSM), punto di riferimento per la subacquea dal 1952, è lieto di invitarvi a una serata dedicata al mondo della fotografia subacquea, che si terrà presso la sede del Centro, la "Chiatta" sulla passeggiata Calata Rotonda al Porto Antico, tra l'Acquario e il Galeone. 
 
-Data: Venerdi 16 maggio 2025 
+Data: Venerdì 16 maggio 2025 
 Accoglienza: ore 17:30 
 Inizio conferenza: ore 18:00 
 Fine conferenza: ore 19:00 / 19:30 
@@ -61,9 +61,9 @@ Al termine della conferenza, domande dal pubblico e breve momento conviviale.
 ## Informazioni pratiche:
 
 • **Dove**: Centro Subacqueo Mediterraneo "Duilio Marcante", Passeggiata Calata Rotonda, Porto
-Antico di Genova
-• **Quando**: Venerdì 16 maggio 2025, ore 17:30
-• **Costo**: Ingresso libero fino a esaurimento posti
+Antico di Genova. 
+• **Quando**: Venerdì 16 maggio 2025, ore 17:30.
+• **Costo**: Ingresso libero fino a esaurimento posti. 
 
 Per ulteriori informazioni: 
 **Email**: csm.duiliomarcante@gmail.com
