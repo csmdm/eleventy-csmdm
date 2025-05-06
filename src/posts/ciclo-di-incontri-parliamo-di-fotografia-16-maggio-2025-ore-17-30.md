@@ -22,7 +22,7 @@ alt: locandina incontro del 16 maggio 2025 ore 17:30 sulla fotografia subacquea,
   attrezzatura da fotografo sub
 showFeatured: false
 ---
-Genova, 16 maggio 2025 – Il Centro Subacqueo Mediterraneo "Duilio Marcante" (CSM), punto di riferimento per la subacquea dal 1952, è lieto di invitarvi a una serata dedicata al mondo della fotografia subacquea, che si terrà presso la sede del Centro, la "Chiatta" sulla passeggiata Calata Rotonda al Porto Antico, tra l'Acquario e il Galeone. \
+Genova, 16 maggio 2025 – Il Centro Subacqueo Mediterraneo "Duilio Marcante" (CSM), punto di riferimento per la subacquea dal 1952, è lieto di invitarvi a una serata dedicata al mondo della fotografia subacquea, che si terrà presso la sede del Centro, la "Chiatta" sulla passeggiata Calata Rotonda al Porto Antico, tra l'Acquario e il Galeone. 
 
 Data: Venerdi 16 maggio 2025 
 Accoglienza: ore 17:30 
