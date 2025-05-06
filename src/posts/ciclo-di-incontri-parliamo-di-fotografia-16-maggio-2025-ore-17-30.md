@@ -61,9 +61,9 @@ Al termine della conferenza, domande dal pubblico e breve momento conviviale.
 ## Informazioni pratiche:
 
 • **Dove**: Centro Subacqueo Mediterraneo "Duilio Marcante", Passeggiata Calata Rotonda, Porto
-Antico di Genova
-• **Quando**: Venerdì 16 maggio 2025, ore 17:30
-• **Costo**: Ingresso libero fino a esaurimento posti
+Antico di Genova. 
+• **Quando**: Venerdì 16 maggio 2025, ore 17:30.
+• **Costo**: Ingresso libero fino a esaurimento posti. 
 
 Per ulteriori informazioni: 
 **Email**: csm.duiliomarcante@gmail.com
