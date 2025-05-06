@@ -1,8 +1,8 @@
 ---
-title: "Ciclo di incontri: Parliamo di Fotografia - 16 maggio 2025 - ore 17:30 "
+title: "Ciclo di incontri: Parliamo di Fotografia - 16 maggio 2025 - ore 18:00 "
 description: >
-  16 maggio 2025 - ore 17:30 | Incontro e discussione su Safari Fotosub con
-  Alessandro Marcenaro e Giuseppe Pagliuso.  
+  Venerdì 16 maggio 2025 - ore 18:00 | Incontro e discussione su Safari Fotosub
+  con Alessandro Marcenaro e Giuseppe Pagliuso.  
 
   Ad entrata libera, presso "La Chiatta": Passeggiata Calata Rotonda Marina, Porto Antico, Genova.
 discover:
@@ -17,7 +17,7 @@ date: 2025-05-06T14:10:00.000Z
 tags:
   - Eventi
 image: /assets/images/uploads/parliamo-di-fotografia-safari-fotosub-16-maggio.webp
-alt: locandina incontro del 16 maggio 2025 ore 17:30 sulla fotografia subacquea,
+alt: locandina incontro del 16 maggio 2025 ore 18:00 sulla fotografia subacquea,
   riprende Alessandro Marcenaro e Giuseppe Pagliuso fuori dall'acqua con
   attrezzatura da fotografo sub
 showFeatured: false
@@ -62,7 +62,7 @@ Al termine della conferenza, domande dal pubblico e breve momento conviviale.
 
 • **Dove**: Centro Subacqueo Mediterraneo "Duilio Marcante", Passeggiata Calata Rotonda, Porto
 Antico di Genova. 
-• **Quando**: Venerdì 16 maggio 2025, ore 17:30.
+• **Quando**: Venerdì 16 maggio 2025, ore 18:00.
 • **Costo**: Ingresso libero fino a esaurimento posti. 
 
 Per ulteriori informazioni: 
@@ -71,4 +71,4 @@ Per ulteriori informazioni:
 
 Non perdere l'occasione di immergerti nel mondo sommerso con il CSM!
 
-![locandina incontro del 16 maggio 2025 ore 17:30 sulla fotografia subacquea, riprende Alessandro Marcenaro e Giuseppe Pagliuso fuori dall'acqua con attrezzatura da fotografo sub](/assets/images/uploads/parliamo-di-fotografia-safari-fotosub-16-maggio.webp "Safari Fotosub - regole, dinamiche e fascino di una competizione sostenibile - incontro del 16 maggio 2025 ore 17:30 in Chiatta a Genova - ciclo di incontri Parliamo di fotografia subacquea ")
+![locandina incontro del 16 maggio 2025 ore 18:00 sulla fotografia subacquea, riprende Alessandro Marcenaro e Giuseppe Pagliuso fuori dall'acqua con attrezzatura da fotografo sub](/assets/images/uploads/parliamo-di-fotografia-safari-fotosub-16-maggio.webp "Safari Fotosub - regole, dinamiche e fascino di una competizione sostenibile - incontro del 16 maggio 2025 ore 18:00 in Chiatta a Genova - ciclo di incontri Parliamo di fotografia subacquea ")
