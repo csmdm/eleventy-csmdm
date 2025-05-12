@@ -11,6 +11,7 @@ discover:
     Cristo degli Abissi nella Baia di San Fruttuoso."
   title: Centro Subacqueo Mediterraneo "Duilio Marcante"
 layout: page
+class: "home"
 permalink: /index.html
 showLogos: true
 widths:

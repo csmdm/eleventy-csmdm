@@ -41,7 +41,7 @@
     {% include "head/meta-info.njk" %}
   </head>
 
-  <body class="{{ layout }}">
+  <body class="{{ layout }} {{ class }}">
     {% include "partials/header.njk" %}
 
     <main id="main" class="flow">{{ content | safe }}</main>
