@@ -16,8 +16,8 @@ showBlog: true
 ---
 Tra le varie attività, abbiamo appena lanciato un ciclo di incontri a tema: «Parliamo di fotografia».
 
-12 aprile 2025 - ore 18:00
+Prossimo incontro: venerdì 16 maggio 2025 - ore 18:00
 
-**Tra ferro e ruggine: la fotografia di un relitto, con Marco Mori**.
+"**Safari Fotosub**" - regole, dinamiche e fascino di una competizione sostenibile - con **Alessandro Marcenaro** e **Giuseppe Pagliuso**.
 
 Ad entrata libera, presso "La Chiatta": Passeggiata Calata Rotonda Marina, Porto Antico, Genova.
