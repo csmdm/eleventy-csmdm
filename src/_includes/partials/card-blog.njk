@@ -1,6 +1,6 @@
 {% set currentTag = definedTag or 'posts' %}
 {% if currentTag in item.data.tags %}
-  <custom-card clickable>
+  <custom-card clickable class="blog">
     <h2 slot="headline">
       <a href="{{ item.url | url }}">{{ item.data.title }}</a>
     </h2>

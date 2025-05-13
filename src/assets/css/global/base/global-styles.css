@@ -135,3 +135,8 @@ a:hover {
     display: none;
   }
 }
+
+/* Vintage photo effect - black & white */
+.black-and-white {
+  filter:brightness(70%) contrast(150%) saturate(0%) brightness(150%);
+}
