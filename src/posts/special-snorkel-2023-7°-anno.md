@@ -1,5 +1,5 @@
 ---
-title: Special snorkel 2023 - 7° ANNO
+title: Special snorkel 2025 - 7° ANNO
 description: Corso per ragazze e ragazzi con Disabilità Intellettivo relazionale
 discover:
   description: "Special snorkel 2025 - 7° ANNO "
