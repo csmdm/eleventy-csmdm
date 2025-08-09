@@ -38,11 +38,19 @@ Subacqueo e istruttore di fotografia e video subacquei (CMAS), Claudio coltiva d
 
 Con il documentario "**Come un sasso nel mare**", Claudio racconta la nascita e l’evoluzione della subacquea a Genova, sottolineando il legame indissolubile tra la città e il suo mare. Un tributo alla sua terra e ai pionieri che, nel silenzio delle profondità, hanno scritto pagine fondamentali della storia subacquea mondiale.
 
-## Presentazione progetto
+### Presentazione progetto
+<!-- 
 
 <embed src="/assets/pdf/docufilm-come-un-sasso-nel-mare.pdf" width="100%" height="750" 
  type="application/pdf">
 
-<!-- 
+
 <div class="region"><custom-iframe @slug="1d6GvzMSoBn8eWdaaV35vicAga4--FQuW" @label="Watch this Google Drive video"></custom-iframe></div>
 -->
+
+Visualizza la presentazione online: 
+
+<iframe src="http://docs.google.com/gview?a=v&pid=explorer&chrome=false&api=true&embedded=true&srcid=1SJiBUpXpoWPW8iPZo9kgzfFAi4fThOPz&hl=it&embedded=true" style="width:100%; height:600px;" frameborder="0"></iframe>
+
+Oppure <a href="https://www.csmduiliomarcante.it/assets/pdf/docufilm-come-un-sasso-nel-mare.pdf">scarica il .pdf</a>
+
