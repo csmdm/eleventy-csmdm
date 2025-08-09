@@ -1,5 +1,5 @@
 ---
-title: "Come un sasso nel mare"
+title: "“Come un sasso nel mare”"
 permalink: /come-un-sasso-nel-mare/index.html
 description: "Underwater Genova: un viaggio nella storia. Con il documentario \"Come un sasso nel mare\", Claudio racconta la nascita e l'evoluzione della subacquea a Genova, sottolineando il legame indissolubile tra la città e il suo mare. Un tributo alla sua terra e ai pionieri che, nel silenzio delle profondità, hanno scritto pagine fondamentali della storia subacquea mondiale." 
 layout: page
