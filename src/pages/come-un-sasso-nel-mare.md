@@ -8,7 +8,7 @@ image: "/assets/images/hero/docu-copertina-senza-titolo.jpg"
 
 ## Underwater Genova: un viaggio nella storia.
 
-<img src="/assets/images/hero/docu-copertina-senza-titolo.jpg" alt="copertina del documentario &laquo;Come un sasso nel mare&raquo;" eleventy:widths="1920" loading="eager" decoding="sync">
+<img src="/assets/images/uploads/copertina-docu.jpg" alt="copertina del documentario &laquo;Come un sasso nel mare&raquo;" eleventy:widths="1920" loading="eager" decoding="sync">
 
 Dai ricordi di [Duilio Marcante](https://it.wikipedia.org/wiki/Duilio_Marcante):
 
@@ -37,6 +37,11 @@ Subacqueo e istruttore di fotografia e video subacquei (CMAS), Claudio coltiva d
 È socio del Centro Subacqueo Mediterraneo "Duilio Marcante", il primo centro subacqueo d’Italia, nato a Genova nel 1954, custode di un patrimonio storico e culturale unico.
 
 Con il documentario "**Come un sasso nel mare**", Claudio racconta la nascita e l’evoluzione della subacquea a Genova, sottolineando il legame indissolubile tra la città e il suo mare. Un tributo alla sua terra e ai pionieri che, nel silenzio delle profondità, hanno scritto pagine fondamentali della storia subacquea mondiale.
+
+## Presentazione progetto
+
+<embed src="/assets/pdf/docufilm-come-un-sasso-nel-mare.pdf" width="100%" height="750" 
+ type="application/pdf">
 
 <!-- 
 <div class="region"><custom-iframe @slug="1d6GvzMSoBn8eWdaaV35vicAga4--FQuW" @label="Watch this Google Drive video"></custom-iframe></div>
