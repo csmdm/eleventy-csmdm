@@ -48,9 +48,9 @@ Con il documentario "**Come un sasso nel mare**", Claudio racconta la nascita e 
 <div class="region"><custom-iframe @slug="1d6GvzMSoBn8eWdaaV35vicAga4--FQuW" @label="Watch this Google Drive video"></custom-iframe></div>
 -->
 
-Visualizza la presentazione online: 
+Visualizza la presentazione online di seguito, oppure <a href="https://www.csmduiliomarcante.it/assets/pdf/docufilm-come-un-sasso-nel-mare.pdf">scarica il .pdf</a>: 
 
 <iframe src="http://docs.google.com/gview?a=v&pid=explorer&chrome=false&api=true&embedded=true&srcid=1SJiBUpXpoWPW8iPZo9kgzfFAi4fThOPz&hl=it&embedded=true" style="width:100%; height:600px;" frameborder="0"></iframe>
 
-Oppure <a href="https://www.csmduiliomarcante.it/assets/pdf/docufilm-come-un-sasso-nel-mare.pdf">scarica il .pdf</a>
+
 
