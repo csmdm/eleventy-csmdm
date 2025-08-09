@@ -12,19 +12,19 @@ image: "/assets/images/hero/docu-copertina-senza-titolo.jpg"
 
 Dai ricordi di [Duilio Marcante](https://it.wikipedia.org/wiki/Duilio_Marcante):
 
-«Dai ricordi della mia gioventù, le prime figure di uomini che andavano sott’acqua emergono tra il 1926 e il 1930. Anch’io mi immergevo, ma fu nel 1928 che Franco Repetto mi spinse a sfidare la profondità. Lui soffriva alle orecchie, io no, e così iniziai a distinguermi tra i migliori. Tra i più esperti c’erano pescatori e bagnini, uomini come Balin “u cinese”, Daneri “u russo” e altri, specialisti nei tuffi su pesci dinamitati.
+«Dai ricordi della mia gioventù, le prime figure di uomini che andavano sott’acqua emergono tra il 1926 e il 1930. Anch’io mi immergevo, ma fu nel 1928 che Franco Repetto mi spinse a sfidare la profondità. Lui soffriva alle orecchie, io no, e così iniziai a distinguermi tra i migliori. Tra i più esperti c’erano pescatori e bagnini, uomini come Balin “u cinese”, Daneri “u russo” e altri, specialisti nei tuffi su pesci dinamitati. 
 
 All’epoca, “andar profondo” significava superare i dieci metri. Non si parlava di immersioni, ma di “tuffi”: ci si lanciava dal natante e si scendeva senza tecniche particolari. L’olio sparso sull’acqua aiutava a vedere il fondo, ma per gran parte della discesa tutto restava avvolto nel buio.
 
-Nel 1933 apparve un uomo mutilato, probabilmente vittima di un’esplosione, che restava sott’acqua quasi tre minuti. Un suo compagno passava tra i bagnanti chiedendo l’elemosina. Poco dopo, nel 1935, Egidio Cressi si esibì in un’apnea di 55 metri alla piscina di Albaro, ma svenne poco prima della fine. La scena si ripeté l’anno successivo durante un incontro di pallanuoto. All’epoca, mancava ogni conoscenza scientifica sulla respirazione e sulla resistenza umana sott’acqua: tutto si basava su istinto, adattamento e coraggio.
+Nel 1933 apparve un uomo mutilato, probabilmente vittima di un’esplosione, che restava sott’acqua quasi tre minuti. Un suo compagno passava tra i bagnanti chiedendo l’elemosina. Poco dopo, nel 1935, Egidio Cressi si esibì in un’apnea di 55 metri alla piscina di Albaro, ma svenne poco prima della fine. La scena si ripeté l’anno successivo durante un incontro di pallanuoto. All’epoca, mancava ogni conoscenza scientifica sulla respirazione e sulla resistenza umana sott’acqua: tutto si basava su istinto, adattamento e coraggio. 
 
-Dagli anni '40, a Genova, l'immersione inizia a catturare l'interesse di chi già amava il mare. Tra questi, Gianni Foroni, Mario Maioni, Giuseppe Magnino, Ernesto Mombello, Dario Gonzatti e Paolo Ruggiero. Non erano ancora pionieri della subacquea come la intendiamo oggi, ma appassionati della caccia subacquea, un'attività vissuta per puro divertimento.
+Dagli anni '40, a Genova, l'immersione inizia a catturare l'interesse di chi già amava il mare. Tra questi, Gianni Foroni, Mario Maioni, Giuseppe Magnino, Ernesto Mombello, Dario Gonzatti e Paolo Ruggiero. Non erano ancora pionieri della subacquea come la intendiamo oggi, ma appassionati della caccia subacquea, un'attività vissuta per puro divertimento. 
 
-All'epoca, le acque liguri erano ricchissime di pesce e la caccia subacquea si svolgeva a profondità ridotte, tra i 5 e i 6 metri. Si utilizzavano rudimentali fucili subacquei, alcuni dei quali bizzarri, come quello lungo due metri e mezzo dotato di batiscopio. Col tempo, il pesce divenne più diffidente e i subacquei dovettero spingersi a profondità maggiori, esplorando nuove zone e confrontandosi con specie più elusive, come la cernia.
+All'epoca, le acque liguri erano ricchissime di pesce e la caccia subacquea si svolgeva a profondità ridotte, tra i 5 e i 6 metri. Si utilizzavano rudimentali fucili subacquei, alcuni dei quali bizzarri, come quello lungo due metri e mezzo dotato di batiscopio. Col tempo, il pesce divenne più diffidente e i subacquei dovettero spingersi a profondità maggiori, esplorando nuove zone e confrontandosi con specie più elusive, come la cernia. 
 
-Le tecniche erano ancora primitive: si puntava sul colpo preciso e sull'avvicinamento istintivo. Nonostante la mancanza di studi medici, non si registrarono incidenti gravi, se non qualche lesione al timpano. Oggi, dopo decenni di attività, chi ha vissuto quegli anni testimonia gli effetti positivi della subacquea sulla salute. Un tempo si temevano conseguenze per l'organismo, ma l’esperienza ha dimostrato che, praticata con consapevolezza, l’immersione è un'attività salutare e benefica per il corpo e la mente.»
+Le tecniche erano ancora primitive: si puntava sul colpo preciso e sull'avvicinamento istintivo. Nonostante la mancanza di studi medici, non si registrarono incidenti gravi, se non qualche lesione al timpano. Oggi, dopo decenni di attività, chi ha vissuto quegli anni testimonia gli effetti positivi della subacquea sulla salute. Un tempo si temevano conseguenze per l'organismo, ma l’esperienza ha dimostrato che, praticata con consapevolezza, l’immersione è un'attività salutare e benefica per il corpo e la mente.» 
 
-## Claudio Colombo
+### Claudio Colombo
 
 Fotografo, videomaker, giornalista pubblicista e documentarista
 
