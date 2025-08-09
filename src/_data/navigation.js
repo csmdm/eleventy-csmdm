@@ -5,6 +5,10 @@ export default {
       url: '/chi-siamo/'
     },
     {
+      text: 'Docu',
+      url: '/come-un-sasso-nel-mare/'
+    },
+    {
       text: 'Cristo degli Abissi',
       url: '/cristo-degli-abissi/'
     },
@@ -20,10 +24,10 @@ export default {
       text: 'Eventi',
       url: '/eventi/'
     },
-    {
+/*    {
       text: 'News',
       url: '/blog/'
-    },
+    }, */
     {
       text: 'Contatti',
       url: '/contatti/'
