@@ -14,7 +14,7 @@ gallery:
 image: ./src/assets/images/hero/corsi.jpeg
 showBlog: true
 ---
-Dal 1987 abbiamo svolto attività di formazione subacquea con autorespiratori FIPSAS, CONI, CMAS - Autorespiratori AR, Apnea, Specializzazioni e corsi per Persone con disabilità, Serate divulgative e didattiche, immersioni.
+Dal 1952 proponiamo attività di formazione subacquea FIPSAS, CONI, CMAS con Autorespiratori (AR), Apnea, Specializzazioni e corsi per Persone con Disabilità, Serate divulgative e didattiche, immersioni per i soci.
 
 **I soci possono partecipare alle varie attività del gruppo**
 
