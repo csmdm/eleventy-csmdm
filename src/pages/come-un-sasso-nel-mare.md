@@ -10,6 +10,20 @@ image: "/assets/images/hero/docu-copertina-senza-titolo.jpg"
 
 <img src="/assets/images/uploads/copertina-docu.jpg" alt="copertina del documentario &laquo;Come un sasso nel mare&raquo;" eleventy:widths="1920" loading="eager" decoding="sync">
 
+Vuoi aiutarci a tenere viva la memoria di chi ci ha insegnato ad amare e rispettare il mare? 💙
+Abbiamo aperto la campagna di crowdfunding per il documentario Come un sasso nel mare. 
+
+👉 Guarda il trailer: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Znn8h6J4NOs?si=bqhdZoVS2MvbawfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Anche un piccolo contributo può fare la differenza:
+👉 https://sostieni.link/38796
+
+Grazie di cuore per il tuo sostegno! 🙏✨
+
+### Intro
+
 Dai ricordi di [Duilio Marcante](https://it.wikipedia.org/wiki/Duilio_Marcante):
 
 «Dai ricordi della mia gioventù, le prime figure di uomini che andavano sott’acqua emergono tra il 1926 e il 1930. Anch’io mi immergevo, ma fu nel 1928 che Franco Repetto mi spinse a sfidare la profondità. Lui soffriva alle orecchie, io no, e così iniziai a distinguermi tra i migliori. Tra i più esperti c’erano pescatori e bagnini, uomini come Balin “u cinese”, Daneri “u russo” e altri, specialisti nei tuffi su pesci dinamitati. 
@@ -46,6 +60,5 @@ Con il documentario "**Come un sasso nel mare**", Claudio racconta la nascita e 
 Visualizza la presentazione online di seguito, oppure <a href="https://www.csmduiliomarcante.it/assets/pdf/docufilm-come-un-sasso-nel-mare.pdf">scarica il .pdf</a>: 
 
 <iframe src="http://docs.google.com/gview?a=v&pid=explorer&chrome=false&api=true&embedded=true&srcid=1SJiBUpXpoWPW8iPZo9kgzfFAi4fThOPz&hl=it&embedded=true" style="width:100%; height:600px;" frameborder="0"></iframe>
-
 
 
