@@ -8,7 +8,7 @@ date: 2025-09-18T00:00:00.000+02:00
 tags:
   - Stampa
 image: "/assets/images/hero/docu-copertina-senza-titolo.jpg"
-alt: "Copertina del documentario \"Come un sasso nel mare\""
+alt: "Copertina del documentario Come un sasso nel mare"
 showFeatured: false
 videosYouTube:
   - slug: Znn8h6J4NOs
