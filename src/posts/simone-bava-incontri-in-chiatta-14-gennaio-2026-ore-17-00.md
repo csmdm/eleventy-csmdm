@@ -9,7 +9,7 @@ discover:
 date: 2026-01-08T14:10:00.000Z
 tags:
   - Eventi
-image: /assets/images/uploads/locandina-subacquea-scientifica-14-gennaio-2026.jpeg
+image: /assets/images/uploads/locandina-subacquea-scientifica-14-gennaio-2026_v2.jpeg
 alt: locandina incontro del 14 gennaio 2026 ore 17:00 sulla subacquea scientifica, riprende una illustrazione di una aragosta in fondo al mare
 showFeatured: false
 ---
@@ -46,4 +46,4 @@ Per ulteriori informazioni:
 
 Non perdere l'occasione di immergerti nel mondo sommerso con il CSM!
 
-![locandina incontro del 14 gennaio 2026 ore 17:00 sulla subacquea scientifica, riprende una illustrazione di una aragosta in fondo al mare](/assets/images/uploads/locandina-subacquea-scientifica-14-gennaio-2026.jpeg "La subacquea scientifica - incontro del 14 gennaio 2026 - ore 17:00 - in Chiatta aragostiera a Genova - ciclo di incontri subacquea scientifica")
+![locandina incontro del 14 gennaio 2026 ore 17:00 sulla subacquea scientifica, riprende una illustrazione di una aragosta in fondo al mare](/assets/images/uploads/locandina-subacquea-scientifica-14-gennaio-2026_v2.jpeg "La subacquea scientifica - incontro del 14 gennaio 2026 - ore 17:00 - in Chiatta aragostiera a Genova - ciclo di incontri subacquea scientifica")
