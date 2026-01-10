@@ -39,6 +39,10 @@ export default {
       url: '/note-legali/'
     },
     {
+      text: 'Tesseramento',
+      url: '/tesseramento/'
+    },
+    {
       text: 'Safeguarding',
       url: '/safeguarding/'
     },
