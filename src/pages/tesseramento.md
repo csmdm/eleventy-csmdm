@@ -30,7 +30,7 @@ Se non visualizzi il form <a href="https://moduli.golee.it/centro-subacqueo-medi
 
 <iframe width="100%" height="600" src="https://moduli.golee.it/centro-subacqueo-mediterraneo-duilio-marcante/tesseramento" frameborder="0" allowfullscreen title="Tesseramento 2026 - CSM Duilio Marcante"></iframe>
 
-Se non ha pagato con carta, di seguito trovi le 
+Se preferisci non pagare con carta, di seguito trovi le 
 - **Coordinate bancarie** per il bonifico:
 IBAN: IT15O0538701420000047161660
 Intestatario: Centro Subacqueo Mediterraneo "Duilio Marcante"
