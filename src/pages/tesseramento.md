@@ -6,7 +6,7 @@ layout: page
 image: "/assets/images/uploads/nuova-tessera-centro-sub-med-duilio-marcante.jpeg"
 ---
 
-## Tesseramento 2026
+## Iscrizione 2026
 
 <img src="/assets/images/uploads/nuova-tessera-centro-sub-med-duilio-marcante.jpeg" alt="esempio di tessera del Centro, retro con dettagli anagrafici" eleventy:widths="460" loading="eager" decoding="sync"><img src="/assets/images/uploads/nuova-tessera-centro-sub-med-duilio-marcante-retro-socio-ordinario.jpeg" alt="esempio di tessera del Centro, retro con dettagli anagrafici" eleventy:widths="460" loading="eager" decoding="sync">
 
