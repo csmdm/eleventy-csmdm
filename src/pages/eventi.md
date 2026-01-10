@@ -14,10 +14,10 @@ gallery:
 image: ./src/assets/images/hero/altre.png
 showBlog: true
 ---
-Tra le varie attività, abbiamo appena lanciato un ciclo di incontri a tema: «Parliamo di fotografia».
+Tra le novità 2026, abbiamo appena lanciato un nuovo **ciclo di incontri** a tema **«La subacquea scientifica»** condotto da *Simone Bava* e a grande richiesta riparte il ciclo **«Parliamo di fotografia»** condotto da *Claudio Colombo*.
 
-Prossimo incontro: venerdì 16 maggio 2025 - ore 18:00
+Prossimi incontri: 
+- **mercoledì 14 gennaio 2026** - ore 17:00 | Incontro **“La subacquea scientifica, dalle origini al presente”** con Simone Bava
+- **sabato 31 gennaio 2026** - ore 18:00 | Incontro **“Nel Blu Cobalto: viaggio tra Emozioni e Immagini”** con Alberto Balbi
 
-"**Safari Fotosub**" - regole, dinamiche e fascino di una competizione sostenibile - con **Alessandro Marcenaro** e **Giuseppe Pagliuso**.
-
-Ad entrata libera, presso "La Chiatta": Passeggiata Calata Rotonda Marina, Porto Antico, Genova.
+Ad entrata libera, presso "La Chiatta": Passeggiata Calata Rotonda Marina, Porto Antico, Genova. Di seguito le locandine e qualche info in più: 
