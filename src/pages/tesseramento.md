@@ -24,20 +24,32 @@ Totale: **€ 50,00**
 
 👉 **Come rinnovare o associarsi**: 
 
-- Compila il form al seguente indirizzo, al termine **potrai pagare la quota direttamente online con carta**, oppure in fondo alla pagina trovi i dettagli per il bonifico:
+- **compila il form** al seguente indirizzo 
+- quando la tua domanda sarà accettata dal Consiglio Direttivo **ti invieremo i dati per il pagamento**, grazie!
 
-Se non visualizzi il form <a href="https://moduli.golee.it/centro-subacqueo-mediterraneo-duilio-marcante/tesseramento">vai al seguente link: Tesseramento 2026</a> 
-
-<iframe width="100%" height="600" src="https://moduli.golee.it/centro-subacqueo-mediterraneo-duilio-marcante/tesseramento" frameborder="0" allowfullscreen title="Tesseramento 2026 - CSM Duilio Marcante"></iframe>
-
-Se preferisci non pagare con carta, di seguito trovi le 
-- **Coordinate bancarie** per il bonifico:
-IBAN: IT15O0538701420000047161660
-Intestatario: Centro Subacqueo Mediterraneo "Duilio Marcante"
-Causale: Tesseramento 2026 per Nome Cognome
+Se non visualizzi il form <a href="https://app.formbricks.com/s/cmk8eskfm1hltad016gljk3ar">vai al seguente link: Tesseramento 2026</a> 
 
 
-Grazie! A prestissimo, in acqua o in chiatta, ma sempre in mare! 🙏✨
+<div style="position: relative; height:80dvh; overflow:auto;"> 
+  <iframe 
+    src="https://app.formbricks.com/s/cmk8eskfm1hltad016gljk3ar" 
+    frameborder="0" style="position: absolute; left:0; top:0; width:100%; height:100%; border:0;" title="Tesseramento 2026 - CSM Duilio Marcante">
+  </iframe>
+</div>
+
+<!-- 
+    Se non visualizzi il form <a href="https://moduli.golee.it/centro-subacqueo-mediterraneo-duilio-marcante/tesseramento">vai al seguente link: Tesseramento 2026</a> 
+
+    <iframe width="100%" height="600" src="https://moduli.golee.it/centro-subacqueo-mediterraneo-duilio-marcante/tesseramento" frameborder="0" allowfullscreen title="Tesseramento 2026 - CSM Duilio Marcante"></iframe> 
+
+    Se preferisci non pagare con carta, di seguito trovi le 
+    - **Coordinate bancarie** per il bonifico:
+    IBAN: IT15O0538701420000047161660
+    Intestatario: Centro Subacqueo Mediterraneo "Duilio Marcante"
+    Causale: Tesseramento 2026 per Nome Cognome
+-->
+
+Grazie! A prestissimo, ci vediamo in acqua o in chiatta, ma sempre in mare! 🙏✨
 
 
 
