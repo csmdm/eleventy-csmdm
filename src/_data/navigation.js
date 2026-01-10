@@ -39,7 +39,7 @@ export default {
       url: '/note-legali/'
     },
     {
-      text: 'Tesseramento',
+      text: 'Tesseramento 2026',
       url: '/tesseramento/'
     },
     {

@@ -24,13 +24,13 @@ Fine conferenza: ore 19:00 / 19:30
 
 Un’occasione unica per appassionati, fotografi e amanti del mare di incontrare un protagonista della scena italiana: **Alberto Balbi**. La conferenza, condotta da Claudio Colombo, fotografo, giornalista e documentarista, esplorerà il valore artistico, tecnico e ambientale della fotografia subacquea, con un focus particolare su... 
 
-## “Nel Blu Cobalto: viaggio tra Emozioni e Immagini”: l'ospite
+## L'ospite
 
-**Alberto Balbi**, 
+**Alberto Balbi**
 
 ## Temi della serata:
 
-* 
+* “Nel Blu Cobalto: viaggio tra Emozioni e Immagini”
 
 Al termine della conferenza, domande dal pubblico e breve momento conviviale. 
 
