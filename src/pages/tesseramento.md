@@ -3,12 +3,12 @@ title: "Tesseramento"
 permalink: /tesseramento/index.html
 description: "Campagna di Tesseramento per associarsi al Centro Sub Med “Duilio Marcante”" 
 layout: page
-image: "/assets/images/uploads/tessera-centro-sub-med-duilio-marcante.jpeg"
+image: "/assets/images/uploads/nuova-tessera-centro-sub-med-duilio-marcante.jpeg"
 ---
 
 ## Tesseramento 2026
 
-<img src="/assets/images/uploads/tessera-centro-sub-med-duilio-marcante.jpeg" alt="esempio di tessera del Centro, retro con dettagli anagrafici" eleventy:widths="460" loading="eager" decoding="sync"><img src="/assets/images/uploads/tessera-centro-sub-med-duilio-marcante-retro-socio-ordinario.jpeg" alt="esempio di tessera del Centro, retro con dettagli anagrafici" eleventy:widths="460" loading="eager" decoding="sync">
+<img src="/assets/images/uploads/nuova-tessera-centro-sub-med-duilio-marcante.jpeg" alt="esempio di tessera del Centro, retro con dettagli anagrafici" eleventy:widths="460" loading="eager" decoding="sync"><img src="/assets/images/uploads/nuova-tessera-centro-sub-med-duilio-marcante-retro-socio-ordinario.jpeg" alt="esempio di tessera del Centro, retro con dettagli anagrafici" eleventy:widths="460" loading="eager" decoding="sync">
 
 Hai **rinnovato la tua Tessera**? Oppure vuoi far parte di una splendida ciurma che come te continua ad amare e rispettare il mare? 💙
 È aperta la **campagna di tesseramento** per l'anno 2026! 
