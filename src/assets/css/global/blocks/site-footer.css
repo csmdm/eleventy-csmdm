@@ -43,3 +43,30 @@
 .site-footer .creator:hover svg {
   color: var(--color-text);
 }
+
+/* liberapay style - start */
+.liberapay-btn.liberapay-btn {
+    background-color: #f6c915;
+    border-radius: 4px;
+    color: #1a171b;
+    display: inline-block;
+    font-family: Helvetica Neue,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    padding: 5px 7px 3px;
+    position: relative;
+    text-decoration: none;
+}
+.liberapay-btn:hover {
+    background-color: #fbce1a;
+}
+.liberapay-btn > svg {
+    position: absolute;
+    left: 7px;
+    top: 7px;
+}
+.liberapay-btn > span {
+    margin-left: 19px;
+}
+/* liberapay style - end */

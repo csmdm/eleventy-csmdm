@@ -49,7 +49,8 @@ Il CSM ha proposto e seguito **la posa della statua del [Cristo degli Abissi](/c
 Se vuoi puoi contribuire in due modi: con una donazione, usando il pulsante giallo di seguito, oppure **[paertecipare](/eventi/)** attivamente alle attività e far parte così di una splendida ciurma che si impegna ad amare e rispettare il mare 💙 
 
 <!-- liberapay donate button -->
-        <script src="https://it.liberapay.com/csm.duiliomarcante/widgets/button.js"></script>
-        <noscript><a href="https://it.liberapay.com/csm.duiliomarcante/donate"><img alt="Fai una donazione tramite Liberapay" src="https://it.liberapay.com/assets/widgets/donate.svg"></a></noscript>
+          <script src="/assets/scripts/components/liberapay-button.js"></script>
+          <noscript><a href="https://it.liberapay.com/csm.duiliomarcante/donate"><img alt="Fai una donazione tramite Liberapay" src="https://it.liberapay.com/assets/widgets/donate.svg"></a></noscript>
+        
 
 {% include "partials/gallery.njk" %}
