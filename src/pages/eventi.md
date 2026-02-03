@@ -17,7 +17,7 @@ showBlog: true
 Tra le novità 2026, abbiamo appena lanciato un nuovo **ciclo di incontri** a tema **«La subacquea scientifica»** condotto da *Simone Bava* e a grande richiesta riparte il ciclo **«Parliamo di fotografia»** condotto da *Claudio Colombo*.
 
 Prossimi incontri: 
-- **mercoledì 14 gennaio 2026** - ore 17:00 | Incontro **“La subacquea scientifica, dalle origini al presente”** con Simone Bava
 - **sabato 31 gennaio 2026** - ore 18:00 | Incontro **“Nel Blu Cobalto: viaggio tra Emozioni e Immagini”** con Alberto Balbi
+- **mercoledì 4 febbraio 2026** - ore 17:00 | Incontro **“Il visual census della fauna ittica e la valutazione della salute degli ecosistemi marini”** con Paolo Guidetti e Simone Bava
 
 Ad entrata libera, presso "La Chiatta": Passeggiata Calata Rotonda Marina, Porto Antico, Genova. Di seguito le locandine e qualche info in più: 
