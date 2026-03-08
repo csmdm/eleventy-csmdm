@@ -24,7 +24,7 @@ Totale: **€ 50,00**
 
 👉 **Come rinnovare o associarsi**: 
 
-- **compila il form** al seguente indirizzo 
+- **compila il form** di seguito 
 - quando la tua domanda sarà accettata dal Consiglio Direttivo **ti invieremo i dati per il pagamento**, grazie!
 
 Se non visualizzi il form <a href="https://app.formbricks.com/s/cmk8eskfm1hltad016gljk3ar">vai al seguente link: Tesseramento 2026</a> 
