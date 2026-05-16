@@ -30,8 +30,8 @@ Accoglienza: dalle ore 18:15
 Inizio: ore 18:30 
 Dove: presso "La Chiatta", Passeggiata Calata Rotonda Marina, Porto Antico, Genova
 
-!["posizione della Chiatta nel cerchio rosso, vista dall'alto del porto antico, sotto si vede l'Acquario, sopra il Galeone, in mezzo la Chiatta"](/assets/images/uploads/posizione-chiatta-sede-csmdm.jpeg "Chiatta nel cerchio rosso, sotto Acquario, sopra Galeone | \"La Chiatta\": Passeggiata Calata Rotonda Marina, Porto Antico, Genova.")
+![posizione della Chiatta nel cerchio rosso, vista dall'alto del porto antico, sotto si vede l'Acquario, sopra il Galeone, in mezzo la Chiatta](/assets/images/uploads/posizione-chiatta-sede-csmdm.jpeg "Chiatta nel cerchio rosso, sotto Acquario, sopra Galeone | La Chiatta: Passeggiata Calata Rotonda Marina, Porto Antico, Genova.")
 
 Vi aspettiamo!
 
-![locandina presentazione corso special snorkeling per pesone con disabilità del 18 maggio 2026](/assets/images/uploads/locandina-special-snorkel-2026.jpeg "Lunedì 18 Maggio - dalle ore 18:00 - Presentazione del Corso di Snorkeling per persone con disabilità | Ad entrata libera, presso \"La Chiatta\": Passeggiata Calata Rotonda Marina, Porto Antico, Genova.")
+![locandina presentazione corso special snorkeling per pesone con disabilità del 18 maggio 2026](/assets/images/uploads/locandina-special-snorkel-2026.jpeg "Lunedì 18 Maggio - dalle ore 18:00 - Presentazione del Corso di Snorkeling per persone con disabilità | Ad entrata libera, presso La Chiatta: Passeggiata Calata Rotonda Marina, Porto Antico, Genova.")

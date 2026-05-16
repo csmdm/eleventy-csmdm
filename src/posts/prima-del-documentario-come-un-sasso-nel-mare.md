@@ -1,15 +1,15 @@
 ---
 title: "Lunedì 15 Giugno - dalle ore 18:45 - prima in assoluto del documentario \"Come un sasso nel mare\""
 description: >
-  Lunedì 15 Giugno - dalle ore 18:45 - prima in assoluto del documentario \"Come un sasso nel mare\" del nostro socio Claudio Colombo | Ingresso su prenotazione, Auditorium dell'acquario, Porto Antico, Genova.
+  "Lunedì 15 Giugno - dalle ore 18:45 - prima in assoluto del documentario \"Come un sasso nel mare\" del nostro socio Claudio Colombo | Ingresso su prenotazione, Auditorium dell'acquario, Porto Antico, Genova."
 discover:
   title: "Lunedì 15 Giugno - dalle ore 18:45 - prima in assoluto del documentario \"Come un sasso nel mare\""
   description: >
-    Lunedì 15 Giugno - dalle ore 18:45 - prima in assoluto del documentario \"Come un sasso nel mare\" del nostro socio Claudio Colombo | Ingresso su prenotazione, Auditorium dell'acquario, Porto Antico, Genova.
+    "Lunedì 15 Giugno - dalle ore 18:45 - prima in assoluto del documentario \"Come un sasso nel mare\" del nostro socio Claudio Colombo | Ingresso su prenotazione, Auditorium dell'acquario, Porto Antico, Genova."
 date: 2026-05-16T14:10:00.000Z
 tags:
   - Eventi
-image: /assets/images/uploads/locandina-documentario-come-un-sasso-nel-mare.jpeg
+image: /assets/images/uploads/locandina-documentario-come-un-sasso-nel-mare_compressed.jpeg
 alt: locandina presentazione documentario Come un sasso nel mare del 15 giugno 2026 presso auditorium acquario di genova
 showFeatured: false
 ---
@@ -21,6 +21,6 @@ Alla presentazione del documentario avremo **270 posti disponibili**. Prima di a
 
 La proiezione avverrà il **15 giugno 2026** presso l’**auditorium dell’acquario di Genova**. **Dalle 18:45 alle 21:00**.
 
-![locandina presentazione documentario Come un sasso nel mare del 15 giugno 2026 presso auditorium acquario di genova](/assets/images/uploads/locandina-documentario-come-un-sasso-nel-mare.jpeg "Lunedì 15 Giugno - dalle ore 18:45 - prima in assoluto del documentario \"Come un sasso nel mare\" del nostro socio Claudio Colombo | Ingresso su prenotazione, Auditorium dell\'acquario, Porto Antico, Genova")
+![locandina presentazione documentario Come un sasso nel mare del 15 giugno 2026 presso auditorium acquario di genova](/assets/images/uploads/locandina-documentario-come-un-sasso-nel-mare_compressed.jpeg "Lunedì 15 Giugno - dalle ore 18:45 - prima in assoluto del documentario Come un sasso nel mare del nostro socio Claudio Colombo | Ingresso su prenotazione, Auditorium dell'acquario, Porto Antico, Genova")
 
 Vi aspettiamo!
