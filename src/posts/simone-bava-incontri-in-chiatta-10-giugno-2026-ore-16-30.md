@@ -13,7 +13,7 @@ image: /assets/images/uploads/locandina-subacquea-scientifica-10-giugno-2026_com
 alt: "locandina incontro del 10 giugno 2026 ore 16:30 sulla subacquea scientifica"
 showFeatured: false
 ---
-Genova, 10 giugno 2026 – Il Centro Subacqueo Mediterraneo "Duilio Marcante" (CSM), punto di riferimento per la subacquea dal 1952, è lieto di invitarvi al prossimo incontro all’Aragostiera, che si terrà il 10 giugno 2026, dalle 16:30 alle 18:30, e che vedrà come ospite **Andrea Giordano** della Stazione Zoologica Anton Dohrn.
+Genova, 10 giugno 2026 – Il Centro Subacqueo Mediterraneo "Duilio Marcante" (CSM), punto di riferimento per la subacquea dal 1952, è lieto di invitarvi al prossimo incontro all’Aragostiera, che si terrà il 10 giugno 2026, dalle 16:30 alle 18:30, e che vedrà come ospite **Andrea Giordano**, che proviene da EMPA e Imperial College di Londra.
 
 ## Design and Performance of Soft Bio-Inspired Aero-Aquatic Robots
 Data: Mercoledì 10 giugno 2026 
@@ -35,7 +35,7 @@ Al termine della conferenza, domande dal pubblico e breve momento conviviale (ap
 
 Per ulteriori informazioni: 
 **Email**: simona.aracri@cnr.it
-**Cell.**: 335 661 2958
+**Cell.**: 338 496 0812
 
 Non perdere l'occasione di immergerti nel mondo sommerso con il CSM!
 
