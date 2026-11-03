@@ -1,0 +1,63 @@
+{#
+  Form "Ti interessa la subacquea?" – gestito da Netlify Forms.
+  I due pulsanti sono radio button: la scelta viene inviata nel campo "interesse".
+  I campi contatto compaiono dopo la scelta (solo CSS, nessun JavaScript).
+#}
+<section class="interest-form" aria-labelledby="interest-form-title">
+  <form
+    name="interesse-subacquea"
+    method="POST"
+    action="/grazie/"
+    data-netlify="true"
+    netlify-honeypot="bot-field"
+  >
+    <input type="hidden" name="form-name" value="interesse-subacquea" />
+
+    <p class="visually-hidden">
+      <label>Non compilare questo campo: <input name="bot-field" tabindex="-1" autocomplete="off" /></label>
+    </p>
+
+    <fieldset class="interest-form__choice">
+      <legend id="interest-form-title">Ti interessa la subacquea? Cosa vorresti provare?</legend>
+
+      <div class="interest-form__buttons">
+        <label class="interest-form__button">
+          <input type="radio" name="interesse" value="Subacquea con le bombole" required />
+          <span>Subacquea con le bombole</span>
+        </label>
+        <label class="interest-form__button">
+          <input type="radio" name="interesse" value="Apnea" required />
+          <span>Apnea</span>
+        </label>
+      </div>
+    </fieldset>
+
+    <div class="interest-form__fields flow">
+      <p>Lasciaci i tuoi contatti: ti scriveremo con le informazioni sui prossimi corsi.</p>
+
+      <div class="interest-form__row">
+        <label for="if-email">Email <span aria-hidden="true">*</span></label>
+        <input id="if-email" type="email" name="email" autocomplete="email" required />
+      </div>
+
+      <div class="interest-form__row">
+        <label for="if-telefono">Telefono <small>(facoltativo)</small></label>
+        <input id="if-telefono" type="tel" name="telefono" autocomplete="tel" inputmode="tel" />
+      </div>
+
+      <div class="interest-form__consent">
+        <input id="if-privacy" type="checkbox" name="privacy" value="accettata" required />
+        <label for="if-privacy">
+          Acconsento al trattamento dei miei dati per essere ricontattato/a, come descritto
+          nell'<a href="/privacy/">informativa sulla privacy</a>.
+        </label>
+      </div>
+
+      <button type="submit" class="button interest-form__submit">Invia</button>
+    </div>
+  </form>
+</section>
+
+{% css "inline" %}
+  {% include "css/interest-form.css" %}
+{% endcss %}

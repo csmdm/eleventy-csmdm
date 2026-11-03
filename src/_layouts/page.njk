@@ -19,6 +19,10 @@ layout: base
   <article class="full | region">
     <div class="wrapper flow prose">{{ content | safe }}
 
+			{% if showInterestForm %}
+				{% include "partials/interest-form.njk" %}
+			{% endif %}
+
 			{% if showLogos %}
 			<div class=" grid mt-xl prose " style="--grid-min-item-size: min(12rem, 40%);">
 				{% for logo in logos  %}

@@ -1,0 +1,123 @@
+.interest-form {
+  margin-block: var(--space-l);
+  text-align: center;
+}
+
+.interest-form fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.interest-form legend {
+  font-size: var(--size-step-2);
+  font-weight: var(--font-bold);
+  margin-inline: auto;
+  margin-block-end: var(--space-s);
+}
+
+.interest-form__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-s);
+}
+
+/* Pulsante = label di un radio button */
+.interest-form__button {
+  position: relative;
+  cursor: pointer;
+  flex: 0 1 26rem;
+}
+
+.interest-form__button input {
+  position: absolute;
+  opacity: 0;
+  inset: 0;
+  cursor: pointer;
+}
+
+.interest-form__button span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  inline-size: 100%;
+  block-size: 100%;
+  padding: var(--space-s) var(--space-m);
+  border: 2px solid var(--color-primary);
+  border-radius: var(--border-radius);
+  color: var(--color-primary);
+  background: var(--color-bg);
+  font-weight: var(--font-bold);
+  font-size: var(--size-step-1);
+  transition: background-color var(--transition-duration) var(--transition-timing),
+    color var(--transition-duration) var(--transition-timing);
+}
+
+.interest-form__button:hover span,
+.interest-form__button input:checked + span {
+  background: var(--color-primary);
+  color: var(--color-light);
+}
+
+.interest-form__button input:focus-visible + span {
+  outline: 3px solid var(--color-tertiary);
+  outline-offset: 3px;
+}
+
+/* Campi contatto: nascosti finché non si sceglie un pulsante */
+.interest-form__fields {
+  max-inline-size: 32rem;
+  margin-inline: auto;
+  margin-block-start: var(--space-m);
+  text-align: start;
+}
+
+@supports selector(:has(*)) {
+  .interest-form:not(:has(input[name='interesse']:checked)) .interest-form__fields {
+    display: none;
+  }
+}
+
+.interest-form__row {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3xs);
+}
+
+.interest-form__row label {
+  font-weight: var(--font-bold);
+}
+
+.interest-form__row input {
+  font: inherit;
+  padding: var(--space-2xs) var(--space-xs);
+  border: 2px solid var(--color-bg-accent-2);
+  border-radius: var(--border-radius);
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+.interest-form__row input:focus {
+  border-color: var(--color-primary);
+  outline: none;
+}
+
+.interest-form__consent {
+  display: flex;
+  gap: var(--space-xs);
+  align-items: flex-start;
+  font-size: var(--size-step-min-1);
+}
+
+.interest-form__consent input {
+  margin-block-start: 0.3em;
+  accent-color: var(--color-primary);
+}
+
+.interest-form__submit {
+  --button-bg: var(--color-primary);
+  --button-text: var(--color-light);
+  --button-border: var(--color-primary);
+  padding: var(--space-xs) var(--space-l);
+}

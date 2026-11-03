@@ -1,0 +1,242 @@
+diff --git a/src/_includes/partials/interest-form.njk b/src/_includes/partials/interest-form.njk
+new file mode 100644
+index 0000000..1afeb18
+--- /dev/null
++++ b/src/_includes/partials/interest-form.njk
+@@ -0,0 +1,63 @@
++{#
++  Form "Ti interessa la subacquea?" – gestito da Netlify Forms.
++  I due pulsanti sono radio button: la scelta viene inviata nel campo "interesse".
++  I campi contatto compaiono dopo la scelta (solo CSS, nessun JavaScript).
++#}
++<section class="interest-form" aria-labelledby="interest-form-title">
++  <form
++    name="interesse-subacquea"
++    method="POST"
++    action="/grazie/"
++    data-netlify="true"
++    netlify-honeypot="bot-field"
++  >
++    <input type="hidden" name="form-name" value="interesse-subacquea" />
++
++    <p class="visually-hidden">
++      <label>Non compilare questo campo: <input name="bot-field" tabindex="-1" autocomplete="off" /></label>
++    </p>
++
++    <fieldset class="interest-form__choice">
++      <legend id="interest-form-title">Ti interessa la subacquea? Cosa vorresti provare?</legend>
++
++      <div class="interest-form__buttons">
++        <label class="interest-form__button">
++          <input type="radio" name="interesse" value="Subacquea con le bombole" required />
++          <span>Subacquea con le bombole</span>
++        </label>
++        <label class="interest-form__button">
++          <input type="radio" name="interesse" value="Apnea" required />
++          <span>Apnea</span>
++        </label>
++      </div>
++    </fieldset>
++
++    <div class="interest-form__fields flow">
++      <p>Lasciaci i tuoi contatti: ti scriveremo con le informazioni sui prossimi corsi.</p>
++
++      <div class="interest-form__row">
++        <label for="if-email">Email <span aria-hidden="true">*</span></label>
++        <input id="if-email" type="email" name="email" autocomplete="email" required />
++      </div>
++
++      <div class="interest-form__row">
++        <label for="if-telefono">Telefono <small>(facoltativo)</small></label>
++        <input id="if-telefono" type="tel" name="telefono" autocomplete="tel" inputmode="tel" />
++      </div>
++
++      <div class="interest-form__consent">
++        <input id="if-privacy" type="checkbox" name="privacy" value="accettata" required />
++        <label for="if-privacy">
++          Acconsento al trattamento dei miei dati per essere ricontattato/a, come descritto
++          nell'<a href="/privacy/">informativa sulla privacy</a>.
++        </label>
++      </div>
++
++      <button type="submit" class="button interest-form__submit">Invia</button>
++    </div>
++  </form>
++</section>
++
++{% css "inline" %}
++  {% include "css/interest-form.css" %}
++{% endcss %}
+diff --git a/src/_layouts/page.njk b/src/_layouts/page.njk
+index 994199a..97f143b 100644
+--- a/src/_layouts/page.njk
++++ b/src/_layouts/page.njk
+@@ -19,6 +19,10 @@ layout: base
+   <article class="full | region">
+     <div class="wrapper flow prose">{{ content | safe }}
+ 
++			{% if showInterestForm %}
++				{% include "partials/interest-form.njk" %}
++			{% endif %}
++
+ 			{% if showLogos %}
+ 			<div class=" grid mt-xl prose " style="--grid-min-item-size: min(12rem, 40%);">
+ 				{% for logo in logos  %}
+diff --git a/src/assets/css/bundle/interest-form.css b/src/assets/css/bundle/interest-form.css
+new file mode 100644
+index 0000000..2e1346f
+--- /dev/null
++++ b/src/assets/css/bundle/interest-form.css
+@@ -0,0 +1,123 @@
++.interest-form {
++  margin-block: var(--space-l);
++  text-align: center;
++}
++
++.interest-form fieldset {
++  border: 0;
++  margin: 0;
++  padding: 0;
++}
++
++.interest-form legend {
++  font-size: var(--size-step-2);
++  font-weight: var(--font-bold);
++  margin-inline: auto;
++  margin-block-end: var(--space-s);
++}
++
++.interest-form__buttons {
++  display: flex;
++  flex-wrap: wrap;
++  justify-content: center;
++  gap: var(--space-s);
++}
++
++/* Pulsante = label di un radio button */
++.interest-form__button {
++  position: relative;
++  cursor: pointer;
++  flex: 0 1 26rem;
++}
++
++.interest-form__button input {
++  position: absolute;
++  opacity: 0;
++  inset: 0;
++  cursor: pointer;
++}
++
++.interest-form__button span {
++  display: flex;
++  align-items: center;
++  justify-content: center;
++  inline-size: 100%;
++  block-size: 100%;
++  padding: var(--space-s) var(--space-m);
++  border: 2px solid var(--color-primary);
++  border-radius: var(--border-radius);
++  color: var(--color-primary);
++  background: var(--color-bg);
++  font-weight: var(--font-bold);
++  font-size: var(--size-step-1);
++  transition: background-color var(--transition-duration) var(--transition-timing),
++    color var(--transition-duration) var(--transition-timing);
++}
++
++.interest-form__button:hover span,
++.interest-form__button input:checked + span {
++  background: var(--color-primary);
++  color: var(--color-light);
++}
++
++.interest-form__button input:focus-visible + span {
++  outline: 3px solid var(--color-tertiary);
++  outline-offset: 3px;
++}
++
++/* Campi contatto: nascosti finché non si sceglie un pulsante */
++.interest-form__fields {
++  max-inline-size: 32rem;
++  margin-inline: auto;
++  margin-block-start: var(--space-m);
++  text-align: start;
++}
++
++@supports selector(:has(*)) {
++  .interest-form:not(:has(input[name='interesse']:checked)) .interest-form__fields {
++    display: none;
++  }
++}
++
++.interest-form__row {
++  display: flex;
++  flex-direction: column;
++  gap: var(--space-3xs);
++}
++
++.interest-form__row label {
++  font-weight: var(--font-bold);
++}
++
++.interest-form__row input {
++  font: inherit;
++  padding: var(--space-2xs) var(--space-xs);
++  border: 2px solid var(--color-bg-accent-2);
++  border-radius: var(--border-radius);
++  background: var(--color-bg);
++  color: var(--color-text);
++}
++
++.interest-form__row input:focus {
++  border-color: var(--color-primary);
++  outline: none;
++}
++
++.interest-form__consent {
++  display: flex;
++  gap: var(--space-xs);
++  align-items: flex-start;
++  font-size: var(--size-step-min-1);
++}
++
++.interest-form__consent input {
++  margin-block-start: 0.3em;
++  accent-color: var(--color-primary);
++}
++
++.interest-form__submit {
++  --button-bg: var(--color-primary);
++  --button-text: var(--color-light);
++  --button-border: var(--color-primary);
++  padding: var(--space-xs) var(--space-l);
++}
+diff --git a/src/pages/grazie.md b/src/pages/grazie.md
+new file mode 100644
+index 0000000..73fd918
+--- /dev/null
++++ b/src/pages/grazie.md
+@@ -0,0 +1,11 @@
++---
++title: Grazie!
++permalink: /grazie/index.html
++description: ''
++layout: page
++excludeFromSitemap: true
++---
++
++Abbiamo ricevuto i tuoi contatti: ti scriveremo presto con le informazioni sui nostri corsi.
++
++[Torna alla home](/)
+diff --git a/src/pages/index.md b/src/pages/index.md
+index 789f95e..a57fb95 100644
+--- a/src/pages/index.md
++++ b/src/pages/index.md
+@@ -14,6 +14,7 @@ layout: page
+ class: "home"
+ permalink: /index.html
+ showLogos: true
++showInterestForm: true
+ widths:
+   - 270
+ sizes: "(max-width: 690px) 50vw, 100vw"

@@ -13,6 +13,7 @@ discover:
 layout: page
 permalink: /index.html
 showLogos: true
+showInterestForm: true
 widths:
   - 270
 sizes: "(max-width: 690px) 50vw, 100vw"
